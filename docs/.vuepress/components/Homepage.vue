@@ -161,7 +161,7 @@ body
           background-color $btnHvColor
   .footer
       padding 1rem
-      // border-top 1px solid lighten(#bdc3c7, 50%)
+      border-top 1px solid lighten(#bdc3c7, 50%)
       font-weight 200
       font-size 1rem
       text-align center

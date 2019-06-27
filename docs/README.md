@@ -1,27 +1,27 @@
 ---
 layout: Homepage
 description: 'The biography and information about me.'
-avatar: /profile.jpg
-head: 'Harry Potter'
-info: 'Student at Hogwarts School'
-interests: 'Interests: Quidditch and Wizard chess.'
+avatar: /profile.png
+head: 'Dr. Németh Tamás'
+info: 'egyetemi adjunktus'
+interests: 'Elérhetőség: Árpád tér 2. 42-es szoba. Tel.: +36 (62) 34-3435'
 socials:
 - title: github
-  link: https://github.com/mtobeiyf
-- title: linkedin
-  link: https://www.linkedin.com
+  link: https://github.com/tomuwhu
+- title: facebook
+  link: https://www.facebook.com/tamasnem
 - title: instagram
-  link: https://www.instagram.com
+  link: https://www.instagram.com/tomuwhu
 - title: email
-  link: 'mailto:harry[at]gmail.com'
+  link: 'mailto:tnemeth[at]inf.u-szeged.hu'
 actions:
-- text: Projects
-  link: /projects/
-- text: Blog
-  link: https://github.com/mtobeiyf
+- text: Oktatott tárgyak
+  link: /subjects/
 - text: CV
-  link: /article/
+  link: http://www.inf.u-szeged.hu/~tnemeth/cv.pdf
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+**Érdeklődési terület:** Online -, approximációs - és számelméleti algoritmusok, gráf metrikák, algoritmizálási és programozási ismeretek oktatásának módszertana.
+
+**Hobbi:** Tenisz, társastánc, sporttánc. A kedven táncom az Angolkeringő.
