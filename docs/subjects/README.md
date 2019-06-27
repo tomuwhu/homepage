@@ -6,6 +6,8 @@
 
 (Informatikatanár szak)
 
+[Régi honlap](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
+
 ### Ismeretanyag
 
 - Algoritmusok fogalma, elemei (szekvencia, szelekció, iteráció). Változó fogalma, változó típusok.

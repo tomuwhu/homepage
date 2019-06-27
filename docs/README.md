@@ -16,13 +16,13 @@ socials:
   link: 'mailto:tnemeth[at]inf.u-szeged.hu'
 actions:
 - text: Oktatott tárgyak
-  link: /subjects/
+  link: http://www.inf.u-szeged.hu/~tnemeth/subjects/
 - text: CV
   link: http://www.inf.u-szeged.hu/~tnemeth/cv.pdf
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
-**Szakmai érdeklődés:** Számelmélet, Online -, approximációs - és számelméleti algoritmusok, gráf metrikák, algoritmizálási és programozási ismeretek oktatásának módszertana.
+**Szakmai érdeklődés:** Online algoritmusok, algoritmizálási és programozási ismeretek oktatásának módszertana.
 
-**Hobbi:** Tenisz, társastánc, sporttánc. A kedvenc táncom az Angolkeringő.
+**Hobbi:** Tenisz, társastánc, sporttánc.
 
