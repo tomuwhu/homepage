@@ -8,7 +8,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Oktatott tárgyak", link: "subjects/" }
+      { text: "Oktatott tárgyak", link: "/subjects/" }
     ],
     sidebar: {
       '/guide/': genSidebarConfig('Guide')
