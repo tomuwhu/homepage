@@ -1,4 +1,4 @@
-# Példaprogramok
+# JavaScript Példaprogramok
 
 ## Vue-CLI pédák a webtechnológiák kurzushoz
 
@@ -10,4 +10,4 @@ Program | Forrás
 
 [Szakmai képzéshez tartozó gyűlytemély](http://tom.uw.hu/index.php)
 
-[Vissza a tematikához](/subjects/#korszeru-webtechnologiak-az-oktatasban)
+[Vissza a tematikákhoz](/subjects/#korszeru-webtechnologiak-az-oktatasban)

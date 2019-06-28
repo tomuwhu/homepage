@@ -1,42 +1,40 @@
 module.exports = {
   title: "Dr. Németh Tamás",
   description: "Oktatási weboldal",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
   base: "/~tnemeth/",
   dest: "./~tnemeth/",
-
   themeConfig: {
+    logo: '/profile.png',
+    displayAllHeaders: true,
     nav: [
       { text: "Home", link: "/" },
-      { text: "Oktatott tárgyak", link: "/subjects/" }
+      { text: "Oktatott tárgyak", 
+        items: [
+          { text: 'Algoritmizálás', link:'/subjects/algo.html' },
+          { text: 'Elemi Informatika 1', link:'/subjects/eli1.html' },
+          { text: 'Elemi Informatika 2', link:'/subjects/eli2.html' },
+          { text: 'Informatikai alkalmazások', link:'/subjects/infalk.html' },
+          { text: 'Modern Webtechnológiák', link:'/subjects/mwt.html' },
+          { text: 'Oktatást Támogató Informatikai Rendszerek', link:'/subjects/otir.html' },
+          { text: 'Problémamegoldó szeminárium', link:'/subjects/pmsz.html' },
+          { text: 'Szakmódszertan 1', link:'/subjects/szmt1.html' },
+          { text: 'Számítástechnikai alapismeretek', link:'/subjects/sztai.html' }
+        ]
+      },
+      { text: "Példaprogramok", 
+        items: [
+          { text: 'JavaScript', link:'/webexamples/' },
+        ]
+      }
     ],
-    sidebar: {
-      '/guide/': genSidebarConfig('Guide')
-    },
     lastUpdated: 'Last Updated'
   },
-
   markdown: {
     // options for markdown-it-anchor
     anchor: { permalink: false },
-    config: md => {
+    config(md) {
       md.use(require("markdown-it-katex"));
     }
   }
 };
-
-function genSidebarConfig (title) {
-  return [
-    {
-      title,
-      collapsable: false,
-      children: [
-        '',
-        'getting-started',
-        'customize',
-        'advanced',
-      ]
-    }
-  ]
-}
 
