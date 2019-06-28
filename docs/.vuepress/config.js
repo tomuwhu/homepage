@@ -23,14 +23,14 @@ module.exports = {
       },
       { text: "Példaprogramok", 
         items: [
-          { text: 'JavaScript', link:'/webexamples/' },
+          { text: 'Algoritmizálás', link:'/examples/algoexamples/' },
+          { text: 'JavaScript', link:'/examples/webexamples/' }
         ]
       }
     ],
     lastUpdated: 'Last Updated'
   },
   markdown: {
-    // options for markdown-it-anchor
     anchor: { permalink: false },
     config(md) {
       md.use(require("markdown-it-katex"));

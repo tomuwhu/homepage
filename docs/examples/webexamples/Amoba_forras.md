@@ -7,7 +7,7 @@
     <div id=content>
         <table>
             <tr :key=i v-for="(sor,i) in tabla">
-            <td :key=j v-for="(elem,j) in sor" 
+            <td :key=j v-for="(elem,j) in sor"
                 :class=elem
                 @click=katt(i,j)> {{elem}}
             </td>
@@ -33,10 +33,10 @@ export default {
                 this.$set(this.tabla[x], y, next === "X" ? next = "O" : next = "X"),
                 [[1,1],[1,0],[0,1],[-1,1]].forEach( v => {
                     xp=x, yp=y, maxh=0
-                    while (this.tabla[xp] && this.tabla[xp][yp]===next) 
+                    while (this.tabla[xp] && this.tabla[xp][yp]===next)
                         xp+=v[0], yp+=v[1], maxh++
                     xp=x, yp=y
-                    while (this.tabla[xp] && this.tabla[xp][yp]===next) 
+                    while (this.tabla[xp] && this.tabla[xp][yp]===next)
                         xp-=v[0], yp-=v[1], maxh++
                     maxh>5 ? this.nyert = next : null
                 })
@@ -96,4 +96,4 @@ div.ujj:hover {
 </style>
 ```
 
-[Összes példa](/webexamples/)
+[Összes példa](/examples/webexamples/)

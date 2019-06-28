@@ -157,8 +157,8 @@ body
         text-align center
         text-decoration none
         display inline-block
-        -webkit-transition-duration 0.4s /* Safari */
-        transition-duration 0.4s
+        -webkit-transition-duration 700ms /* Safari */
+        transition-duration 700ms
         cursor pointer
         &:hover
           background-color $btnHvColor

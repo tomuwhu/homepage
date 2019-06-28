@@ -4,7 +4,7 @@
 
 Program | Forrás
 --- | --- |
-[Amőba](/webexamples/Amoba.html) | [Amőba forrás](/webexamples/Amoba_forras.html)
+[Amőba](/examples/webexamples/Amoba.html) | [Amőba forrás](/examples/webexamples/Amoba_forras.html)
 
 ## Régi pédák és oktatási anyagok
 
