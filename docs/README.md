@@ -23,8 +23,8 @@ actions:
   link: https://scholar.google.hu/citations?user=LJqnw1sAAAAJ&hl=hu
 footer: VuePress-el készült.
 ---
+#
 
 **Szakmai érdeklődés:** Online algoritmusok, algoritmizálási és programozási ismeretek oktatásának módszertana.
 
 **Hobbi:** Tenisz, társastánc, sporttánc.
-
