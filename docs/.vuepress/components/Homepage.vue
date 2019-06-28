@@ -16,19 +16,19 @@
               {{data.info}}
             </span>
           </div>
-          <div class="description">
-            <Content/>
-          </div>
-        </div>
-        <div class="interests">
+          <div class="interests">
           <span>
             {{data.interests}}
           </span>
         </div>
+          <div class="description">
+            <Content/>
+          </div>
+        </div>
         <div class="socials">
           <div v-for="item in data.socials">
             <a :href="item.link" target="_blank">
-              <img :src="'/icons/'+item.title+'.svg'" :alt="item.title"
+              <img :src="'icons/'+item.title+'.svg'" :alt="item.title"
               :title="item.title" />
             </a>
           </div>
@@ -90,6 +90,8 @@ body
       height auto
       max-width 150px
       border-radius 500rem
+      box-shadow: 1px 1px 6px black;
+      border: solid 4px white;
   .card
     max-width: 600px
     width 100%
@@ -108,7 +110,7 @@ body
         font-weight 700
         font-size 1.3em
       .info
-        padding-top 0.5rem
+        padding 0.5rem
         font-size 1em
         color rgba(0,0,0,.4)
       .description

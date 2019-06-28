@@ -6,7 +6,7 @@
 
 (Informatikatanár szak)
 
-[Régi honlap](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
+[Régi honlap példaprogramokkal és előadás-anyagokkal](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
 
 ### Ismeretanyag
 
@@ -217,6 +217,8 @@ Külön tantárgyakban kerül feldolgozásra (Algoritmizálás, Web alapismerete
 - Webszerverek üzemeltetési kérdései
 
 [Részletes tematika](mwt.html)
+
+[Példaprogramok](/webexamples/)
 
 ## Oktatást Támogató Informatikai Rendszerek
 
