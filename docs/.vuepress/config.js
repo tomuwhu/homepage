@@ -1,7 +1,7 @@
 module.exports = {
   title: "Dr. Németh Tamás",
   description: "Oktatási weboldal",
-  head: [["link", { rel: "icon", href: `/logo.png` }]],
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
   base: "/~tnemeth/",
   dest: "./~tnemeth/",
 

@@ -115,7 +115,7 @@
 13. Gyakorlati feladatok a játékprogramok készítése témakörhöz.
 14. Gyakorlati feladatok az Excel programozása témakörhöz.
 
-### A közoktatásban használt alkalmazói rendszerek áttekintése
+**A közoktatásban használt alkalmazói rendszerek áttekintése:**
 
 - Az igényes szöveges dokumentummal kapcsolatos elvárások, alkalmazása az oktatási folyamatban. Tipográfiai alapismeretek, alapfogalmak
 - A szövegszerkesztés technikái és gyakorlata.
@@ -125,11 +125,11 @@
 - Gyakorlati feladatok megoldása táblázatkezelővel. Dinamikus programozási feladatok megoldása táblázatkezelővel, gráfok ábrázolása és gráfalgoritmusok alkalmazása táblázatkezelővel.
 - Objektumorientált programozás használata informatikai alkalmazásokban. Az MS Visual basic használata a Word, Excel, Powerpoint és Access alkalmazásokban.
 
-### A közoktatásban használt programozási nyelvek és algoritmusok áttekintése
+**A közoktatásban használt programozási nyelvek és algoritmusok áttekintése:**
 
 Külön tantárgyakban kerül feldolgozásra (Algoritmizálás, Web alapismeretek...)
 
-### Szövegszerkesztés (körlevél készítés, stílusok készítése, használata), kiadványszerkesztés
+**Szövegszerkesztés (körlevél készítés, stílusok készítése, használata), kiadványszerkesztés:**
 
 - Tipográfiai alapismeretek:
 - Tipográfiai alapfogalmak
@@ -145,7 +145,7 @@ Külön tantárgyakban kerül feldolgozásra (Algoritmizálás, Web alapismerete
 - Kiadványszerkesztés folyamata: Tipográfiai tervezés, Szövegfeldolgozás, Képfeldolgozás, nyomdai előkészítés
 - Termék kigyártásának folyamatai (Szövegszerkesztés, Korrektúra)
 
-### Prezentáció készítés gyakorlati problémái, programozott animáció készítése prezentációkhoz
+**Prezentáció készítés gyakorlati problémái, programozott animáció készítése prezentációkhoz:**
 
 - Prezentációkészítés általában:
   - Alapfogalmak
@@ -166,7 +166,7 @@ Külön tantárgyakban kerül feldolgozásra (Algoritmizálás, Web alapismerete
   - Nagyítás és kicsinyítés
   - Vetítés a preziből, konferenciavetítés, prezi megosztása
 
-### Számítógépes grafika, számítógépes fényképfeldolgozás, digitális kamera használata
+**Számítógépes grafika, számítógépes fényképfeldolgozás, digitális kamera használata:**
 
 - A képszerkesztésről általában:
   - A fény fogalma, tulajdonságait meghatározó fizikai jellemzők
