@@ -4,7 +4,8 @@ description: 'The biography and information about me.'
 avatar: /profile.png
 head: 'Dr. Németh Tamás'
 info: 'egyetemi adjunktus - SZTE TTIK'
-interests: 'Árpád tér 2. 42-es szoba. Tel.: +36 (62) 34-3435'
+loc1: 'Árpád tér 2. 42-es szoba.'
+loc2: 'Tel.: +36 (62) 343-435'
 socials:
 - title: github
   link: https://github.com/tomuwhu

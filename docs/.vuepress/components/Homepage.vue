@@ -16,11 +16,10 @@
               {{data.info}}
             </span>
           </div>
-          <div class="interests">
-          <span>
-            {{data.interests}}
-          </span>
-        </div>
+          <div class="loc">
+            <span class=nw v-html="data.loc1" />
+            <span class=nw v-html="data.loc2" />
+          </div>
           <div class="description">
             <Content/>
           </div>
@@ -122,9 +121,11 @@ body
           -webkit-margin-after 0em
           a
             font-weight normal
-    .interests
+    .loc
       padding 1em 1.5em
       border-top 1px solid rgba(34,36,38,.1)
+      span
+        white-space: nowrap
     .socials
       border-top 1px solid rgba(34,36,38,.1)
       display flex
