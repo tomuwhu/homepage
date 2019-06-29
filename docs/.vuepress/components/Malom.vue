@@ -1,51 +1,3 @@
-<style scoped>
-    #base {
-        text-align: center;
-    }
-    table {
-        border-collapse: inherit;
-    }
-    td {
-        font-size: 26px;
-        text-align: center;
-    }
-    td.d1 {
-        box-shadow: 0px 0px 3px black;
-        border-color: rgb(150, 133, 111);
-        border-radius: 18px;
-        border: solid 2px black;
-        width: 30px;
-        height: 30px;
-    }
-    td.d2, td.d3{
-        width: 30px;
-        height: 30px;
-        background-color: rgb(128, 128, 128);
-        border-radius: 9px;
-    }
-    div.O {
-        margin: 4px auto;
-        border-radius: 18px;
-        width: 22px;
-        height: 22px;
-    }
-    div.Empty {
-        width: 20px;
-        height: 20px;
-    }
-    div.R {
-        background-color: rgb(194, 28, 28);
-        box-shadow: 0px 0px 5px black;
-    }
-    div.B {
-        background-color: rgb(69, 28, 194);
-        box-shadow: 0px 0px 5px black;
-    }
-    div.K {
-        cursor: pointer;
-    }
-</style>
-
 <template>
     <div id="base">
         <br>
@@ -119,7 +71,7 @@ export default {
     }),
     methods: {
         szin(x,y,szin) {
-            if (szin=='0') {
+            if (szin=='0' && this.Rf && this.Bf) {
                 return  !this.Rf.has(`${x}-${y}`) && 
                         !this.Bf.has(`${x}-${y}`) && 
                          this.table[x][y]===1
@@ -129,7 +81,7 @@ export default {
                     check=this.Rf
                 if (szin=='B')  
                     check=this.Bf
-                return check.has(`${x}-${y}`)
+                return check?check.has(`${x}-${y}`):false
             }           
         },
         katt(x,y) {
@@ -193,3 +145,58 @@ export default {
     }
 }
 </script>
+
+<style lang=scss scoped>
+    #base {
+        text-align: center;
+    }
+    table {
+        border-collapse: inherit;
+    }
+    td {
+        font-size: 20px;
+        text-align: center;
+    }
+    td.d1 {
+        box-shadow: 0px 0px 3px black;
+        border-color: rgb(150, 133, 111);
+        border-radius: 18px;
+        border: solid 2px black;
+        width: 25px;
+        height: 25px;
+    }
+    td.d2, td.d3{
+        width: 20px;
+        height: 20px;
+        background-color: rgb(128, 128, 128);
+        border-radius: 9px;
+    }
+    div.O {
+        margin: 0px auto;
+        border-radius: 18px;
+        width: 25px;
+        height: 25px;
+    }
+    div.Empty {
+        width: 25px;
+        height: 25px;
+    }
+    div.R {
+        background-color: rgb(194, 28, 28);
+        box-shadow: 0px 0px 5px black;
+    }
+    div.B {
+        background-color: rgb(69, 28, 194);
+        box-shadow: 0px 0px 5px black;
+    }
+    div.K {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+
+    }
+    div.K:hover {
+        background-color: rgb(247, 247, 247);
+        box-shadow: 0px 0px 3px black;
+    }
+</style>
