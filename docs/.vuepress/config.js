@@ -1,8 +1,11 @@
 module.exports = {
   title: "Dr. Németh Tamás",
-  description: "Oktatási weboldal",
+  description: "Dr. Németh Tamás oktatási weboldal - webes technológiák, algoritmusok, algoritmizálás",
   base: "/~tnemeth/",
   dest: "./~tnemeth/",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     logo: '/profile.png',
     displayAllHeaders: true,
@@ -37,6 +40,8 @@ module.exports = {
     }
   },
   markdown: {
+    toc: { includeLevel: [2, 3] },
+    lineNumbers: true,
     anchor: { permalink: false },
     config(md) {
       md.use(require("markdown-it-katex"));

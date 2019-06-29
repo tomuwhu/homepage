@@ -3,11 +3,11 @@
 ```javascript
 <template>
     <div id="app">
-    <h1>Amőba</h1>
+    <h2>Amőba</h2>
     <div id=content>
         <table>
             <tr :key=i v-for="(sor,i) in tabla">
-            <td :key=j v-for="(elem,j) in sor"
+            <td :key=j v-for="(elem,j) in sor" 
                 :class=elem
                 @click=katt(i,j)> {{elem}}
             </td>
@@ -15,14 +15,19 @@
         </table>
     </div>
     <span v-if="nyert!='-'">
-        <h1>Nyert: {{ nyert }}</h1><br>
+        <h2>Nyert: {{ nyert }}</h2><br>
         <div class=ujj @click=ujj()>Új játék</div>
     </span>
+    <br>
+    <hr>
+    <a href="/~tnemeth/examples/webexamples/Amoba_forras.html">
+        Forráskód
+    </a>
     </div>
 </template>
 
 <script>
-let next = "X", xp, yp, maxh, size=17, ba = n =>
+let next = "X", xp, yp, maxh, size=10, ba = n =>
     Array(n) .fill(0) .map( () => Array(n).fill(" ") )
 export default {
     data: () => ({ nyert: "-", tabla: ba(size) }),
@@ -30,13 +35,17 @@ export default {
         ujj() { this.tabla = ba(size), this.nyert = "-" },
         katt(x, y) {
             if (this.tabla[x][y] === " " && this.nyert === "-") {
-                this.$set(this.tabla[x], y, next === "X" ? next = "O" : next = "X"),
+                this.$set(
+                    this.tabla[x],
+                    y,
+                    next === "X" ? next = "O" : next = "X"
+                ),
                 [[1,1],[1,0],[0,1],[-1,1]].forEach( v => {
                     xp=x, yp=y, maxh=0
-                    while (this.tabla[xp] && this.tabla[xp][yp]===next)
+                    while (this.tabla[xp] && this.tabla[xp][yp]===next) 
                         xp+=v[0], yp+=v[1], maxh++
                     xp=x, yp=y
-                    while (this.tabla[xp] && this.tabla[xp][yp]===next)
+                    while (this.tabla[xp] && this.tabla[xp][yp]===next) 
                         xp-=v[0], yp-=v[1], maxh++
                     maxh>5 ? this.nyert = next : null
                 })
@@ -53,12 +62,14 @@ export default {
     user-select: none;
     text-align: center;
     color: #095d6c;
-    h1 {
+    h2 {
         text-shadow: 0px 0px 2px #19334d;
     }
     div#content {
         text-align: center;
         table {
+            border-collapse: inherit;
+            width: 356px;
             margin:0px auto;
             border-spacing: 4px;
             td {

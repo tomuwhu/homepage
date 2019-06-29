@@ -1,7 +1,6 @@
 <template>
     <div id="base">
-        <br>
-        <br>
+        <h4>Malom játék - nem teljes, házi feladat: befejezni!</h4>
         <table style="margin: 0 auto;">
             <tr :key="y" v-for="(row,y) in table">
                 <td :key="x" v-for="(cell,x) in row" :class="'d'+cell">
@@ -9,17 +8,21 @@
                         <div class="Empty" v-if="cell=='0'" />
                         <div class="O R" v-if="cell=='R' || szin(x,y,'R')" />
                         <div class="O B" v-if="cell=='B' || szin(x,y,'B')" />
-                        <div class="O K" v-if="count<18 && szin(x,y,'0')" @click="katt(x,y)" />
+                        <div class="O K"
+                             v-if="count<18 && szin(x,y,'0')"
+                             @click="katt(x,y)" />
                     </span>
                     <span v-if="remm=='R'">
                         <div class="Empty" v-if="cell=='0'" />
                         <div class="O R" v-if="cell=='R' || szin(x,y,'R')" />
-                        <div class="O B K" v-if="cell=='B' || szin(x,y,'B')" @click="del(x,y,'B')" />
+                        <div class="O B K" v-if="cell=='B' || szin(x,y,'B')"
+                             @click="del(x,y,'B')" />
                         <div class="O" v-if="count<18 && szin(x,y,'0')" />
                     </span>
                     <span v-if="remm=='B'">
                         <div class="Empty" v-if="cell=='0'" />
-                        <div class="O R K" v-if="cell=='R' || szin(x,y,'R')" @click="del(x,y,'R')"/>
+                        <div class="O R K" v-if="cell=='R' || szin(x,y,'R')"
+                             @click="del(x,y,'R')"/>
                         <div class="O B" v-if="cell=='B' || szin(x,y,'B')" />
                         <div class="O" v-if="count<18 && szin(x,y,'0')" />
                     </span>
@@ -35,6 +38,9 @@
         </table>
         <br>
         <button @click="uj()">Új játék</button>
+        <br>
+        <hr>
+        <a href="/~tnemeth/examples/webexamples/Malom_forras.html">Forráskód</a>
     </div>
 </template>
  
@@ -59,15 +65,8 @@ export default {
                 ['R','R','R','R','R','R','R','R','R',0,0,0,0],
                 [0,0,0,0,'B','B','B','B','B','B','B','B','B'],
         ],
-        Rf: null,
-        Bf: null,
-        next: null,
-        count: null,
-        BRC: null,
-        BCC: null,
-        RRC: null,
-        RCC: null,
-        remm: false
+        Rf: null, Bf: null, next: null, count: null,
+        BRC: null, BCC: null, RRC: null, RCC: null, remm: false
     }),
     methods: {
         szin(x,y,szin) {
@@ -77,10 +76,8 @@ export default {
                          this.table[x][y]===1
             } else {
                 let check
-                if (szin=='R')         
-                    check=this.Rf
-                if (szin=='B')  
-                    check=this.Bf
+                if (szin=='R') check=this.Rf
+                if (szin=='B') check=this.Bf
                 return check?check.has(`${x}-${y}`):false
             }           
         },
@@ -100,8 +97,7 @@ export default {
             toadd.add(`${x}-${y}`)            
             if (this.next=='B')
                 this.$set(this.table[15],12-Math.round(this.count++/2-0.5),0)
-            else 
-                this.$set(this.table[14],Math.round(this.count++/2),0)
+            else this.$set(this.table[14],Math.round(this.count++/2),0)
             this.next=this.next=='R'?'B':'R'
         },
         del(x,y,szin) {
@@ -151,10 +147,11 @@ export default {
         text-align: center;
     }
     table {
+        width: 360px;
         border-collapse: inherit;
     }
     td {
-        font-size: 20px;
+        font-size: 1px;
         text-align: center;
     }
     td.d1 {
@@ -162,8 +159,8 @@ export default {
         border-color: rgb(150, 133, 111);
         border-radius: 18px;
         border: solid 2px black;
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
     td.d2, td.d3{
         width: 20px;
@@ -173,13 +170,13 @@ export default {
     }
     div.O {
         margin: 0px auto;
-        border-radius: 18px;
-        width: 25px;
-        height: 25px;
+        border-radius: 20px;
+        width: 16px;
+        height: 15px;
     }
     div.Empty {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
     div.R {
         background-color: rgb(194, 28, 28);
@@ -190,13 +187,15 @@ export default {
         box-shadow: 0px 0px 5px black;
     }
     div.K {
-        width: 25px;
-        height: 25px;
+        width: 16px;
+        height: 15px;
         cursor: pointer;
-
     }
     div.K:hover {
         background-color: rgb(247, 247, 247);
         box-shadow: 0px 0px 3px black;
+    }
+    button {
+        cursor: pointer;
     }
 </style>

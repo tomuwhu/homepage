@@ -4,7 +4,7 @@ next: /subjects/otir.html
 ---
 # Modern webtechnológiák
 
-[Példaprogramok](/examples/webexamples/)
+[[toc]]
 
 ## 1. Informatikai alapismeretek
 
@@ -330,3 +330,5 @@ next: /subjects/otir.html
 - Starter kitek.
 - Full stack web frameworks ( Basys, NUXT, Quasar ).
 - Webes IOT és beágyazott rendszerek programozása, RPI-GPIO.
+
+[Példaprogramok](/examples/webexamples/)

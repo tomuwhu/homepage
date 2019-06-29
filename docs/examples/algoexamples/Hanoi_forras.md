@@ -47,7 +47,7 @@ const h = ( a, b, n ) => (
         <hr>
         <div class="i">
             <table>
-                <td v-for="oszlop in t" 
+                <td v-for="oszlop in t"
                     :style="`height: ${n*27}px; width:20px;`" >
                     <div  v-for="korong in oszlop">{{korong}}</div>
                 </td>
