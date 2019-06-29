@@ -7,10 +7,11 @@
         </div>
         <br>
         <hr>
-        <div class="co" v-html=mo />
+        <div class="co" :id="windowWidth>600?'so':(windowWidth>300?'ko':'mo')" v-html=mo />
     </div>
 </template>
 <script>
+import { vueWindowSizeMixin } from 'vue-window-size'
 const sty = `   white-space: nowrap;
                 background-color: rgb(182, 191, 199);
                 padding: 4px;
@@ -23,6 +24,7 @@ const h = ( a, b, n ) => (
         : `${ h( a, 6-a-b, n-1 ) } <div style="${sty}">${ a } -> ${ b }</div> ${ h( 6-a-b, b, n-1 ) }`
 )
 export default {
+    mixins: [vueWindowSizeMixin],
     data: () => ({
         a:1, b:2, n:3, mo: 0
     }),
@@ -61,10 +63,17 @@ export default {
             text-align: center;
             width: 100%;
             display: grid;
-            grid-template-columns: repeat(10,auto);
             grid-column-gap: 10px;
             grid-row-gap: 10px;
-            
+        }
+        div#so {
+            grid-template-columns: repeat(7,auto);
+        }
+        div#ko {
+            grid-template-columns: repeat(3,auto);
+        }
+        div#mo {
+            grid-template-columns: repeat(2,auto);
         }
     }
 </style>
