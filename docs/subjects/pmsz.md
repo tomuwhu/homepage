@@ -1,3 +1,7 @@
+---
+prev: /subjects/otir.html
+next: /subjects/szmt1.html
+---
 # Problémamegoldó szeminárium
 
 (Informatikatanár szak)

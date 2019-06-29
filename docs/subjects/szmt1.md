@@ -1,3 +1,7 @@
+---
+prev: /subjects/pmsz.html
+next: /subjects/sztai.html
+---
 # Szakmódszertan 1
 
 (Informatikatanár szak)

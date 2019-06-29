@@ -1,3 +1,7 @@
+---
+prev: /subjects/algo.html
+next: /subjects/eli2.html
+---
 # Elemi Informatika 1
 
 (Informatikatanár szak)

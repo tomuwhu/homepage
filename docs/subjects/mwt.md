@@ -1,6 +1,10 @@
+---
+prev: /subjects/infalk.html
+next: /subjects/otir.html
+---
 # Modern webtechnológiák
 
-[Példaprogramok](/webexamples/)
+[Példaprogramok](/examples/webexamples/)
 
 ## 1. Informatikai alapismeretek
 

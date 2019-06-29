@@ -28,7 +28,13 @@ module.exports = {
         ]
       }
     ],
-    lastUpdated: 'Last Updated'
+    lastUpdated: 'Utoljára frissítve',
+    serviceWorker: {
+      updatePopup: { 
+        message: "Új tartalom elérhető!", 
+        buttonText: "Frissítés" 
+      }
+    }
   },
   markdown: {
     anchor: { permalink: false },

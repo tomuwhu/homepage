@@ -1,3 +1,7 @@
+---
+prev: /subjects/mwt.html
+next: /subjects/pmsz.html
+---
 # Oktatást Támogató Informatikai Rendszerek
 
 **A tárgy ismeratanyaga:**

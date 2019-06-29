@@ -41,7 +41,6 @@
           </div>
         </div>
       </div>
-
       <div class="footer" v-if="data.footer">
         {{ data.footer }}
       </div>

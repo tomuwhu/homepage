@@ -1,3 +1,7 @@
+---
+prev: false
+next: /subjects/eli1.html
+---
 # Algoritmizálás
 
 (Informatikatanár szak)

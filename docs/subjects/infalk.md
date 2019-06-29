@@ -1,3 +1,7 @@
+---
+prev: /subjects/eli2.html
+next:  /subjects/mwt.html
+---
 # Informatikai alkalmazások
 
 **A tárgy ismeratanyaga:**

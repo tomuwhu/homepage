@@ -1,3 +1,7 @@
+---
+prev: /subjects/szmt1.html
+next: false
+---
 # Számítástechnikai alapismeretek
 
 (biológus szak, bioinformatikus szakirány)
