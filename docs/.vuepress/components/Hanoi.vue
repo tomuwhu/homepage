@@ -11,10 +11,16 @@
     </div>
 </template>
 <script>
+const sty = `   white-space: nowrap;
+                background-color: rgb(182, 191, 199);
+                padding: 4px;
+                margin: 4px;
+                box-shadow: 1px 1px 3px black;
+                border-radius: 5px; ` 
 const h = ( a, b, n ) => (
     n < 2
-        ? `<div>${ a } -> ${ b }</div> `
-        : `${ h( a, 6-a-b, n-1 ) } <div>${ a } -> ${ b }</div> ${ h( 6-a-b, b, n-1 ) }`
+        ? `<div style="${sty}">${ a } -> ${ b }</div> `
+        : `${ h( a, 6-a-b, n-1 ) } <div style="${sty}">${ a } -> ${ b }</div> ${ h( 6-a-b, b, n-1 ) }`
 )
 export default {
     data: () => ({
@@ -52,14 +58,6 @@ export default {
             box-shadow: 0px 0px 3px black;
         }
         div.co {
-            div {
-                white-space: nowrap;
-                background-color: rgb(182, 191, 199);
-                padding: 4px;
-                margin: 4px;
-                box-shadow: 1px 1px 3px black;
-                border-radius: 5px;
-            }
             text-align: center;
             width: 100%;
             display: grid;
