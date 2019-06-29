@@ -13,7 +13,7 @@
         <hr>
         <div class=i>
             <table>
-                <td v-for="oszlop in t" :style="`height: ${n*22}px; width:20px;`" >
+                <td v-for="oszlop in t" :style="`height: ${n*27}px; width:20px;`" >
                     <div  v-for="korong in oszlop">{{korong}}</div>
                 </td>
             </table>
@@ -103,12 +103,24 @@ export default {
             grid-template-columns: repeat(2,auto);
         }
         table {
+            border-collapse: separate;
             margin: 0 auto;
-            width: 150px;
+            width:200px;
+            border-spacing: 10px;
         }
         td {
             text-align:center ;
             vertical-align: top;
+            box-shadow: 1px 1px 3px black;
+            border-radius: 5px;
+            div {
+                box-shadow: 1px 1px 3px black;
+                border-radius: 5px;
+                padding :4px;
+                background-color: rgb(111, 220, 218);
+                color: rgb(77, 19, 23);
+                text-shadow: 1px 1px 2px black;
+            }
         }
     }
 </style>
