@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div class="main" name=hanoi>
         <div class=i>
             <select v-model.number="a" @change="hanoi()">
                 <option v-for="i in 3">{{i}}</option>

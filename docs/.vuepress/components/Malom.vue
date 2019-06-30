@@ -1,5 +1,5 @@
 <template>
-    <div id="base">
+    <div id="base" name=malom>
         <h4>Malom játék - nem teljes, házi feladat: befejezni!</h4>
         <table style="margin: 0 auto;">
             <tr :key="y" v-for="(row,y) in table">

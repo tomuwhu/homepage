@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" name=amoba>
     <h2>Amőba</h2>
     <div id=content>
         <table>
