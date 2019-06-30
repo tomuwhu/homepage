@@ -1,5 +1,5 @@
 <template>
-    <div id="base" name=malom>
+    <div id="base">
         <h4>Malom játék - nem teljes, házi feladat: befejezni!</h4>
         <table style="margin: 0 auto;">
             <tr :key="y" v-for="(row,y) in table">
@@ -46,6 +46,7 @@
  
 <script>
 export default {
+    name: 'malom',
     data: () => ({
         table: [
                 [1,3,3,3,3,3,1,3,3,3,3,3,1],

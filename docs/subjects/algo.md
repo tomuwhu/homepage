@@ -6,15 +6,19 @@ next: /subjects/eli1.html
 
 (Informatikatanár szak)
 
+- [Pédaprogramok](/examples/algoexamples/)
 - [Régi honlap példaprogramokkal és előadás-anyagokkal](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
 - [Régi algoritmusok és adatszerkezetek II. előadások anyagai](http://www.inf.u-szeged.hu/~tnemeth/alga2/alg2.php)
 
 **Ismeretanyag:**
 
 - Algoritmusok fogalma, elemei (szekvencia, szelekció, iteráció). Változó fogalma, változó típusok.
+- Memóriakezelés, elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
 - A tömb fogalma és kezelése.
 - Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok.
   - beszúró- és buborék rendezés, lineáris- és logaritmikus keresés
+  - külső és helyben rendezések
+  - rendezések futási idejének elemzése, rendezések típusai.
 - A függvény fogalma, függvényhívás formái, bemeneti paraméterek, visszatérési érték és funkciói.
 - A verem és sor adatszerkezet és működése, a verem jelentősége a függvényhívások folyamán.
 - Rekurzió működése az informatikában, rekurzióval megoldható feladatok.

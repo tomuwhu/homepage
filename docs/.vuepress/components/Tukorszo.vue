@@ -6,29 +6,17 @@
                placeholder="Szó / Szöveg"/>
         <hr>
         <table v-if="mi">
-            <td class="szoveg">Törlendő karakterek száma:</td>
-            <td class="eredm">{{ mi }}</td>
-        </table>
-        <div v-else>Ez tükörszó</div>
-        <br>
-        <table v-if="mi">
+            <tr><td class="szoveg"
+                    :colspan="s.length"
+                    title="A törlendő karakterek piros mezőben, az előállított tükörszó zöldben."
+                    >Törlendő</td></tr>
+            <tr><td class="eredm" :colspan="s.length">legalább {{ mi }} karakter:</td></tr>
             <tr>
-                <td class="szoveg">
-                    A tükörszó a törölt karakterek helyével:
-                </td>
+                <td :class="el=='.'?'z':'x'"
+                    v-html="el==='.'?s[i]:el"
+                    v-for="(el,i) in mo"/>
             </tr>
-            <tr>
-                <td>
-                    <table>
-                        <td :class="el=='.'?'z':'x'"
-                            v-html="el==='.'?'&#x2727;':el"
-                            v-for="el in mo"/>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <table>
+            <tr><td class="szoveg" :colspan="s.length"><pre>t[i,j]</pre></td></tr>
             <tr v-for="(row,j) in t">
                 <td :class="cell?'x':'o'"
                     :key="`${i}-${j}`"
@@ -37,6 +25,7 @@
                 </td>
             </tr>
         </table>
+        <div v-else>Ez tükörszó</div>
         <br>
         <a href="/~tnemeth/examples/algoexamples/Tukorszo_forras.html">
             Rekurzív képlet és Forráskód megjelenítése
@@ -60,6 +49,7 @@ let o = {
     }
 }
 export default {
+    name: 'tsz',
     data: () => ({
         s: "",
         mi: 0,
@@ -88,7 +78,7 @@ export default {
         margin: 40px;
         input {
             background-color: rgb(196, 232, 238);
-            width: 300px;
+            width: 327px;
             font-size: 20px;
             padding: 5px;
             border-radius: 5px;
@@ -118,9 +108,12 @@ export default {
             font-weight: bold;
         }
         td.szoveg {
+            user-select: none;
+            cursor: default;
+            text-align: center;
+            background-color: rgb(251, 255, 212);
             font-size: 18px;
             width: 320px;
-            text-align: left;
             padding: 4px;
             padding-left: 8px;
         }
@@ -129,6 +122,9 @@ export default {
             font-size: 18px;
             padding: 4px;
             background-color: rgb(169, 241, 249);
+        }
+        pre {
+            margin: 0px;
         }
     }
 </style>

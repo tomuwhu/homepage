@@ -11,6 +11,7 @@
 
 <script>
 export default {
+  name: '#mdc',
   props: ['image']
 };
 </script>

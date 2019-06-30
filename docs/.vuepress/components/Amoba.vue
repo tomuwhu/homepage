@@ -1,5 +1,5 @@
 <template>
-    <div id="app" name=amoba>
+    <div id="app">
     <h2>Amőba</h2>
     <div id=content>
         <table>
@@ -27,6 +27,7 @@
 let next = "X", xp, yp, maxh, size=10, ba = n =>
     Array(n) .fill(0) .map( () => Array(n).fill(" ") )
 export default {
+    name: 'amoba',
     data: () => ({ nyert: "-", tabla: ba(size) }),
     methods: {
         ujj() { this.tabla = ba(size), this.nyert = "-" },

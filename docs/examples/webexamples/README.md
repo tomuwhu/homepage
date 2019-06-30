@@ -1,6 +1,6 @@
 # JavaScript Példaprogramok
 
-## Vue-CLI pédák a webtechnológiák kurzushoz
+## VueComponent pédák a webtechnológiák kurzushoz
 
 Program | Forrás
 :--- | :---

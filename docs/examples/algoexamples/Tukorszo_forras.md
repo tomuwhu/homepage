@@ -51,29 +51,19 @@ console.log(`
                placeholder="Szó / Szöveg"/>
         <hr>
         <table v-if="mi">
-            <td class="szoveg">Törlendő karakterek száma:</td>
-            <td class="eredm">{{ mi }}</td>
-        </table>
-        <div v-else>Ez tükörszó</div>
-        <br>
-        <table v-if="mi">
+            <tr><td class="szoveg" :colspan="s.length">Törlendő karakterek száma</td></tr>
+            <tr><td class="eredm" :colspan="s.length">{{ mi }}</td></tr>
             <tr>
-                <td class="szoveg">
-                    A tükörszó a törölt karakterek helyével:
+                <td class="szoveg" :colspan="s.length">
+                    A tükörszó a törölt karakterek helyével
                 </td>
             </tr>
             <tr>
-                <td>
-                    <table>
-                        <td :class="el=='.'?'z':'x'"
-                            v-html="el==='.'?'&#x2727;':el"
-                            v-for="el in mo"/>
-                    </table>
-                </td>
+                <td :class="el=='.'?'z':'x'"
+                    v-html="el==='.'?'&#x2727;':el"
+                    v-for="el in mo"/>
             </tr>
-        </table>
-        <hr>
-        <table>
+            <tr><td class="szoveg" :colspan="s.length">t[i,j]</td></tr>
             <tr v-for="(row,j) in t">
                 <td :class="cell?'x':'o'"
                     :key="`${i}-${j}`"
@@ -82,6 +72,7 @@ console.log(`
                 </td>
             </tr>
         </table>
+        <div v-else>Ez tükörszó</div>
         <br>
         <a href="/~tnemeth/examples/algoexamples/Tukorszo_forras.html">
             Rekurzív képlet és Forráskód megjelenítése
@@ -133,7 +124,7 @@ export default {
         margin: 40px;
         input {
             background-color: rgb(196, 232, 238);
-            width: 300px;
+            width: 327px;
             font-size: 20px;
             padding: 5px;
             border-radius: 5px;
@@ -163,9 +154,10 @@ export default {
             font-weight: bold;
         }
         td.szoveg {
+            text-align: center;
+            background-color: rgb(251, 255, 212);
             font-size: 18px;
             width: 320px;
-            text-align: left;
             padding: 4px;
             padding-left: 8px;
         }

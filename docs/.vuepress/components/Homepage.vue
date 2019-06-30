@@ -1,5 +1,5 @@
 <template>
-  <div class="home" name=homepage>
+  <div class="home" el=homepage>
     <div class="wrapper">
       <div class="avatar">
         <img :src="$withBase(data.avatar)" alt="">
@@ -50,6 +50,7 @@
 
 <script>
 export default {
+  name: 'hp',
   computed: {
     data() {
       return this.$page.frontmatter;

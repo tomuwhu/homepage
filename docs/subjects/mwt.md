@@ -4,6 +4,8 @@ next: /subjects/otir.html
 ---
 # Modern webtechnológiák
 
+[**# Pédaprogramok #**](/examples/webexamples/)
+
 [[toc]]
 
 ## 1. Informatikai alapismeretek

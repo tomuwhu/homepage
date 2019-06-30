@@ -8,6 +8,7 @@ import markdownIt from "markdown-it";
 import emoji from "markdown-it-emoji";
 
 export default {
+  name: '#lcont',
   props: {
     content: {
       default: "",

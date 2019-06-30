@@ -37,6 +37,7 @@ const h = ( a, b, n ) => (
         : `${ h( a, 6-a-b, n-1 ) },${ a } -> ${ b },${ h( 6-a-b, b, n-1 ) }`
 )
 export default {
+    name: 'hanoi',
     mixins: [vueWindowSizeMixin],
     data: () => ({
         a:1, b:2, n:3, mo: '',
