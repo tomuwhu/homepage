@@ -10,7 +10,6 @@ module.exports = {
     logo: '/profile.png',
     displayAllHeaders: true,
     nav: [
-      { text: "Home", link: "/" },
       { text: "Oktatott tárgyak", 
         items: [
           { text: 'Algoritmizálás', link:'/subjects/algo.html' },
