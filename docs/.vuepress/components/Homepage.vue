@@ -170,7 +170,7 @@ body
         cursor pointer
         box-shadow 1px 1px 5px black
       .page
-        padding 16px
+        padding 6px
         background-color rgb(20,140,140)
         color white
         &:hover
