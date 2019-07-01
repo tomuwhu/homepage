@@ -1,5 +1,5 @@
 <template>
-  <div class="home" el=homepage>
+  <div class="home">
     <div class="wrapper">
       <div class="avatar">
         <img :src="$withBase(data.avatar)" alt="">
