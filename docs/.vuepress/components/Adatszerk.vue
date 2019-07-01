@@ -35,6 +35,7 @@
             </tr>
         </table>
         <span v-if="prisor.container.length>1 && prisor.container.length<100">
+            <br>
             <div><b>Kupac ábrázolása:</b></div><div>&nbsp;</div>
             <div v-html="kupac(1)" />
         </span>
@@ -218,6 +219,7 @@ div#conta {
     table.s {
         border-collapse: separate;
         border-spacing: 10px;
+        border:solid 1px #123456;
         td {
             background-color: rgb(190, 237, 242);
             border: solid 1px black;

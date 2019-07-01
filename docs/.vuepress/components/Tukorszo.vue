@@ -9,8 +9,12 @@
             <tr><td class="szoveg"
                     :colspan="s.length"
                     title="A törlendő karakterek piros mezőben, az előállított tükörszó zöldben."
-                    >Törlendő</td></tr>
-            <tr><td class="eredm" :colspan="s.length">legalább {{ mi }} karakter:</td></tr>
+                    ><pre>Törlendő</pre></td></tr>
+            <tr>
+                <td class="eredm" :colspan="s.length">
+                    <pre>legalább {{ mi }} karakter:</pre>
+                </td>
+            </tr>
             <tr>
                 <td :class="el=='.'?'z':'x'"
                     v-html="el==='.'?s[i]:el"
@@ -29,7 +33,7 @@
         </div>
         <hr>
         <a href="/~tnemeth/examples/algoexamples/Tukorszo_forras.html">
-            Rekurzív képlet és Forráskód megjelenítése
+            A megoldás matematikai modelleje és forráskódja
         </a>
     </div>
 </template>
@@ -116,8 +120,6 @@ div#cont {
             background-color: rgb(251, 255, 212);
             font-size: 18px;
             width: 320px;
-            padding: 4px;
-            padding-left: 8px;
         }
         td.eredm {
             font-weight: bold;
@@ -125,9 +127,12 @@ div#cont {
             padding: 4px;
             background-color: rgb(169, 241, 249);
         }
-        pre {
-            margin: 0px;
-        }
     }
+}
+pre {
+    margin: 2px ;
+    padding: 0 ;
+    background-color: rgb(231, 235, 202);
+    box-shadow: 0 0 2px black;
 }
 </style>
