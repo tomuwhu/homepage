@@ -141,12 +141,15 @@ class PQueue extends Stack {
         } else return null
     }
     fixup(p) { // O(log n)
-        let q1 = ( p + 1 ) * 2 - 1,
-            q2 = q1 + 1,
+        console.log(p)
+        let q1 = ( p + 1 ) * 2 ,
+            q2 = q1 - 1,
             q = 0
         if (q1 > this.size + 2) q1 = p
         if (q2 > this.size + 2) q2 = q1
         this.container[q1] > this.container[q2] ? q = q1 : q = q2
+        console.log(this.container[q1],this.container[q2],q)
+
         if (p != q) {
             this.cshn(q, p), this.fixup(q)
         }
@@ -165,7 +168,7 @@ class PQueue extends Stack {
 export default {
     data: () => ({
         aszlist: ['verem','sor','prioritási sor','helyi konténer'],
-        type: 1,
+        type: 3,
         elem: '',
         kivett: [],
         verem: new Stack,

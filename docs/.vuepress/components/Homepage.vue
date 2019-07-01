@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div class="home" el=homepage>
     <div class="wrapper">
       <div class="avatar">
@@ -45,6 +46,7 @@
         {{ data.footer }}
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -149,9 +151,12 @@ body
         border none
         border-radius 0.3em
         color white
-        padding 0.5em 1em
-        margin 1em 0.5em
-        font-size 1rem
+        padding 6px
+        margin-top 20px
+        margin-bottom 20px
+        margin-left 5px
+        margin-right 5px
+        font-size 14px
         font-family inherit
         font-weight 400
         text-align center
@@ -160,6 +165,7 @@ body
         -webkit-transition-duration 700ms /* Safari */
         transition-duration 700ms
         cursor pointer
+        box-shadow 1px 1px 5px black
         &:hover
           background-color $btnHvColor
   .footer
