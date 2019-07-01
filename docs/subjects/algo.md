@@ -17,22 +17,23 @@ next: /subjects/eli1.html
 - Elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
 - Algoritmusok elemei magas szintű programozási nyelvekben: szekvencia, szelekció, iteráció, rekurzió.
 - A tömb fogalma és kezelése.
-- Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok.
+- Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok:
   - beszúró- és buborék rendezés, lineáris- és logaritmikus keresés
   - külső és helyben rendezések
+  - függvények növekedési üteme, jelölések
   - rendezések futási idejének elemzése, rendezések típusai.
 - A függvény fogalma, függvényhívás formái, bemeneti paraméterek, visszatérési érték és funkciói.
 - A verem és sor adatszerkezet és működése, a verem jelentősége a függvényhívások folyamán.
 - Rekurzió működése az informatikában, rekurzióval megoldható feladatok.
-- Kupacrendezés, gyorsrendezés, vödrös és radix rendezés.
-- Rendező algoritmusok futási idejének elemzése. Külső és belső rendezések.
+- Kupacrendezés, gyorsrendezés, vödrös és radix rendezés, időigény elemzése.
+- Rendező algoritmusok futási idejének elemzése.
 - Struktúra és Osztály típus. Láncolt listák és megvalósításuk.
-- Elemi és absztrakt adatszerkezetek, az interfész funkciója.
-  - Verem, sor.
-  - Bináris kupac, prioritási sor, binomiáris kupac és alkalmazásai.
-  - Bináris Keresőfák, önszervező keresőfák (Splay, AVL, 2-3, B, Piros-fekete).
-  - Halmaz és függvény absztrakt adatszerkezet. (Map, Set)
-  - Hasítótáblák.
+- Elemi és absztrakt adatszerkezetek, az interfész funkciója:
+  - verem, sor
+  - bináris kupac, prioritási sor, binomiáris kupac és alkalmazásai
+  - bináris keresőfák, önszervező keresőfák (Splay, AVL, 2-3, B, Piros-fekete)
+  - halmaz és függvény absztrakt adatszerkezet. (Map, Set)
+  - hasítótáblák.
 - Amortizációs költségelemzés.
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
