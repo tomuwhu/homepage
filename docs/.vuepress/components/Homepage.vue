@@ -35,9 +35,15 @@
         </div>
         <div class="actions">
           <div v-for="item in data.actions">
-            <a :href="item.link" class="button"
+            <a :href="item.link" class="button page"
                 :target="item.link.startsWith('/')?'':'_blank'">
-              {{item.text}}
+              &#x2606; {{item.text}} &#x2606;
+            </a>
+          </div>
+          <div v-for="item in data.links">
+            <a :href="item.link" class="button link"
+                :target="item.link.startsWith('/')?'':'_blank'">
+              {{item.text}} &rArr;
             </a>
           </div>
         </div>
@@ -145,13 +151,10 @@ body
       flex-direction: row
       justify-content: center
       flex-wrap wrap
-      // padding 1em
       .button
-        background-color $btnBgColor
+        text-shadow 1px 1px 3px black
         border none
         border-radius 0.3em
-        color white
-        padding 6px
         margin-top 20px
         margin-bottom 20px
         margin-left 5px
@@ -166,8 +169,18 @@ body
         transition-duration 700ms
         cursor pointer
         box-shadow 1px 1px 5px black
+      .page
+        padding 16px
+        background-color rgb(20,140,140)
+        color white
         &:hover
-          background-color $btnHvColor
+          background-color rgb(0,100,100)
+      .link
+        padding 5px
+        background-color rgb(20,200,20)
+        color white
+        &:hover
+          background-color rgb(20,100,20)
   .footer
       padding 1rem
       border-top 1px solid lighten(#bdc3c7, 50%)
