@@ -150,7 +150,7 @@ body
       justify-content: center
       flex-wrap wrap
       .button
-        text-shadow 1px 1px 3px black
+        text-shadow 0px 0px 3px black
         border none
         border-radius 0.3em
         margin-top 20px
@@ -172,13 +172,13 @@ body
         background-color rgb(20,140,140)
         color white
         &:hover
-          background-color rgb(0,100,100)
+          background-color rgb(0,60,100)
       .link
         padding 5px
-        background-color rgb(20,200,20)
+        background-color rgb(20,100,80)
         color white
         &:hover
-          background-color rgb(20,100,20)
+          background-color rgb(0,60,100)
   .footer
       padding 1rem
       border-top 1px solid lighten(#bdc3c7, 50%)

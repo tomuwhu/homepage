@@ -39,12 +39,20 @@ module.exports = {
       }
     }
   },
+  plugins: [
+    ['mathjax', {
+      target: 'svg',
+      macros: {
+        '*': '\\times',
+      },
+    }],
+  ],
   markdown: {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true,
     anchor: { permalink: false },
     config(md) {
-      md.use(require("markdown-it-katex"));
+      md.use(require("markdown-it-mathjax"));
     }
   }
 };

@@ -17,7 +17,7 @@ socials:
   link: 'mailto:tnemeth[at]inf.u-szeged.hu'
 actions:
 - text: Oktatás
-  link: /subjects/
+  link: /~tnemeth/subjects/
 links:
 - text: CV
   link: http://www.inf.u-szeged.hu/~tnemeth/cv.pdf

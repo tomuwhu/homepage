@@ -1,5 +1,11 @@
 # Tükörszó probléma megoldása
 
+## Pédaprogram
+
+[Futtatás](/examples/algoexamples/Tukorszo.html)
+
+## A megoldás matematikai modellje
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/>
@@ -44,7 +50,7 @@ console.log(`
 
 ```javascript
 <template>
-    <div id=app name=tukorszo>
+    <div id=app>
         <h2>Tükörszósító</h2>
         <input v-model="s"
                @keyup="szamol()"

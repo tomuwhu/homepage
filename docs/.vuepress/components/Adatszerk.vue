@@ -39,6 +39,8 @@
             <div><b>Kupac ábrázolása:</b></div><div>&nbsp;</div>
             <div v-html="kupac(1)" />
         </span>
+        <hr>
+        <a href="Adatszerk_forras.html">Forráskód</a>
     </div>
 </template>
 

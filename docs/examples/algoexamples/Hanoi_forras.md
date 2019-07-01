@@ -1,8 +1,10 @@
 # Hanoi probléma megoldása
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+## Pédaprogram
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/>
+[Futtatás](/examples/algoexamples/Hanoi.html)
+
+## A megoldás matematikai modellje
 
 $h(n,a,b)=$
 

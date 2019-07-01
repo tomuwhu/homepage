@@ -1,5 +1,9 @@
 # Adatszerkezetek
 
+## Pédaprogram
+
+[Futtatás](/examples/algoexamples/Adatszerk.html)
+
 ## Verem
 
 ```javascript

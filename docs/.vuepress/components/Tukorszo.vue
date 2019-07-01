@@ -1,5 +1,6 @@
 <template>
-    <div id=app name=tukorszo>
+    <div id=cont>
+        <div id=app>
         <h2>Tükörszósító</h2>
         <input v-model="s"
                @keyup="szamol()"
@@ -26,7 +27,8 @@
             </tr>
         </table>
         <div v-else>Ez tükörszó</div>
-        <br>
+        </div>
+        <hr>
         <a href="/~tnemeth/examples/algoexamples/Tukorszo_forras.html">
             Rekurzív képlet és Forráskód megjelenítése
         </a>
@@ -58,6 +60,7 @@ export default {
     }),
     methods: {
         szamol() {
+            this.s=this.s.toLocaleLowerCase()
             if (this.s.length) {
                 o.t = Array(this.s.length)
                         .fill()
@@ -73,9 +76,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+div#cont {
+    margin: 40px;
     div#app {
         font-size: 20px;
-        margin: 40px;
         input {
             background-color: rgb(196, 232, 238);
             width: 327px;
@@ -127,4 +131,5 @@ export default {
             margin: 0px;
         }
     }
+}
 </style>
