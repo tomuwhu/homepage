@@ -1,5 +1,4 @@
 <template>
-  <div>
   <div class="home" el=homepage>
     <div class="wrapper">
       <div class="avatar">
@@ -52,7 +51,6 @@
         {{ data.footer }}
       </div>
     </div>
-  </div>
   </div>
 </template>
 
