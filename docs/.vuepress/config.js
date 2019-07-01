@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: 'Utoljára frissítve',
     serviceWorker: {
       updatePopup: { 
-        message: "Új tartalom elérhető!", 
+        message: "Új tartalom elérhető!",
         buttonText: "Frissítés" 
       }
     }

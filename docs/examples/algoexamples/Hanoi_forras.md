@@ -6,10 +6,14 @@
 
 ## A megoldás matematikai modellje
 
+![képlet](/~tnemeth/hanoi.png)
+
+<!--
 $h(n,a,b)=$
 
 - ha $n=1$, akkor:  &nbsp; $a$ &#10137; $b$,
 - egyébként: $h(n-1, a, 6-a-b)$,  &nbsp; $a$ &#10137; $b$, &nbsp; $h(n-1, 6-a-b, b)$
+-->
 
 ```javascript
 const h = ( a, b, n ) => (

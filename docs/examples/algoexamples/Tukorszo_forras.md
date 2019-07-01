@@ -6,9 +6,9 @@
 
 ## A megoldás matematikai modellje
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+![képlet](/~tnemeth/tukorszo.png)
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/>
+<!--
 
 $f(i,j)=$
 
@@ -16,6 +16,7 @@ $f(i,j)=$
 - egyébként
   - ha $s[i]=s[j]$, akkor $f(i+1,j-1)$
   - egyébként: $min( f(i+1,j),f(i,j-1) )+1$
+-->
 
 ## Megoldás rekurzió-memorizálás módszerével
 
