@@ -12,8 +12,10 @@ next: /subjects/eli1.html
 
 **Ismeretanyag:**
 
-- Algoritmusok fogalma, elemei (szekvencia, szelekció, iteráció). Változó fogalma, változó típusok.
-- Memóriakezelés, elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
+- Algoritmusok fogalma, elemei (szekvencia, szelekció, iteráció). Változó fogalma, adattípusok.
+- Statikus és dinamikus memóriakezelés
+- Elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
+- Algoritmusok elemei magas szintű programozási nyelvekben: szekvencia, szelekció, iteráció, rekurzió.
 - A tömb fogalma és kezelése.
 - Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok.
   - beszúró- és buborék rendezés, lineáris- és logaritmikus keresés
@@ -22,29 +24,25 @@ next: /subjects/eli1.html
 - A függvény fogalma, függvényhívás formái, bemeneti paraméterek, visszatérési érték és funkciói.
 - A verem és sor adatszerkezet és működése, a verem jelentősége a függvényhívások folyamán.
 - Rekurzió működése az informatikában, rekurzióval megoldható feladatok.
+- Kupacrendezés, gyorsrendezés, vödrös és radix rendezés.
+- Rendező algoritmusok futási idejének elemzése. Külső és belső rendezések.
+- Struktúra és Osztály típus. Láncolt listák és megvalósításuk.
 - Elemi és absztrakt adatszerkezetek, az interfész funkciója.
-  - Verem, Sor.
-  - Bináris kupac.
-  - Prioritási sor.
-  - Bináris Keresőfák, önszervező keresőfák.
+  - Verem, sor.
+  - Bináris kupac, prioritási sor, binomiáris kupac és alkalmazásai.
+  - Bináris Keresőfák, önszervező keresőfák (Splay, AVL, 2-3, B, Piros-fekete).
   - Halmaz és függvény absztrakt adatszerkezet. (Map, Set)
   - Hasítótáblák.
 - Amortizációs költségelemzés.
-- Kupacrendezés, gyorsrendezés, vödrös és radix rendezés.
-- Rendező algoritmusok futási idejének elemzése. Külső és belső rendezések.
-- Adatok statikus és dinamikus kezelése.
-- Pointerek, dinamikus memóriafoglalás.
-- Struktúra és Osztály típus. Láncolt listák és megvalósításuk.
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
-- Egyesíthető prioritási sor, binomiális fák, binomiális kupac.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
 - Eseménytér fogalma, dinamikus programozás, mohó stratégia.
 - Gráf-algoritmusok (gráf bejárás, Floyd-Warshall, PageRank algoritmus).
-- A mesterséges Intelligencia alapfogalmai.
 - Dijkstra- és A* algoritmus.
-- Visszalépéses keresés, alfa-béta vágás, gráfjátékok.
 - Speciális gráfok, páros gráfok és párosítási problémák. Magyar módszer.
 - Kruskal-algoritmus, halmazerdő adatszerkezet. Prím-algoritmus.
+- A mesterséges Intelligencia alapfogalmai.
+- Visszalépéses keresés, alfa-béta vágás, gráfjátékok.
 - Mintaillesztés automatával, Knuth-Morris-Pratt algoritmus.
 - Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Ajánlórendszerek. Számítási bonyolultság fogalma, Turing-gép, bonyolultsági osztályok.
