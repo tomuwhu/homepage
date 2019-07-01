@@ -1,3 +1,3 @@
----
-layout: Amoba
----
+## Amőba
+
+<Amoba />

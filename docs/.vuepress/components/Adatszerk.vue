@@ -1,6 +1,5 @@
 <template>
     <div id="conta">
-        <h2>Elemi adatszerkezetek</h2>
         <select v-model="type">
             <option value="1">Verem</option>
             <option value="2">Sor</option>
@@ -203,7 +202,6 @@ export default {
 
 <style lang=scss scoped>
 div#conta {
-    margin: 30px;
     input {
         font-size: 20px;
         padding: 5px;

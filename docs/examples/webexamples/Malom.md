@@ -1,3 +1,3 @@
----
-layout: Malom
----
+## Malom
+
+<Malom />

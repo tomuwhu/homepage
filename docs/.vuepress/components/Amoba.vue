@@ -1,6 +1,5 @@
 <template>
     <div id="app">
-    <h2>Amőba</h2>
     <div id=content>
         <table>
             <tr :key=i v-for="(sor,i) in tabla">

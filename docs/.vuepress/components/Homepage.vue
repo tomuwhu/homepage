@@ -72,7 +72,7 @@ body
   .home
     max-width 100%
     background-color $homeBgColor
-    min-height calc(100vh - 6rem)
+    min-height calc(100vh - 40px)
     display flex
     padding 2.4rem 2rem 0
   @media (max-width: $MQMobileNarrow)

@@ -1,3 +1,3 @@
----
-layout: Tukorszo
----
+## Tükörszósító
+
+<Tukorszo />

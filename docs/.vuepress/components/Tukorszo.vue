@@ -1,7 +1,6 @@
 <template>
     <div id=cont>
         <div id=app>
-        <h2>Tükörszósító</h2>
         <input v-model="s"
                @keyup="szamol()"
                placeholder="Szó / Szöveg"/>
@@ -77,7 +76,6 @@ export default {
 
 <style lang="scss" scoped>
 div#cont {
-    margin: 40px;
     div#app {
         font-size: 20px;
         input {

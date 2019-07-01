@@ -1,3 +1,3 @@
----
-layout: Hanoi
----
+## Hanoi tornyai
+
+<Hanoi />
