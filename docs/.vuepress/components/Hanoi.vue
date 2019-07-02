@@ -127,7 +127,7 @@ export default {
             text-align: center;
             border-collapse: separate;
             margin: 0 auto;
-            display: initial;
+            display: table;
             border-spacing: 10px;
         }
         td {

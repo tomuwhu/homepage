@@ -20,7 +20,11 @@
                     v-html="el==='.'?s[i]:el"
                     v-for="(el,i) in mo"/>
             </tr>
-            <tr><td class="szoveg" :colspan="s.length"><pre>t[i,j]</pre></td></tr>
+            <tr>
+                <td class="szoveg" :colspan="s.length">
+                    <pre>t[i,j]</pre>
+                </td>
+            </tr>
             <tr v-for="(row,j) in t">
                 <td :class="cell?'x':'o'"
                     :key="`${i}-${j}`"
@@ -95,6 +99,7 @@ div#cont {
         margin: 0px;
         border-collapse: separate;
         border-spacing: 3px;
+        display: table;
         td {
             text-align: center;
             font-size: 15px;

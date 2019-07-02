@@ -220,7 +220,9 @@ export default {
         </tr>
     </table>
                 `
-            else return this.prisor.container[i-1]?this.prisor.container[i-1]:'-'
+            else return this.prisor.container[i-1]
+                            ? this.prisor.container[i-1]
+                            : '-'
         }
     }
 }

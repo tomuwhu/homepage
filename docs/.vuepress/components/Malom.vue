@@ -149,7 +149,7 @@ export default {
     }
     table {
         border-collapse: inherit;
-        display: initial;
+        display: table;
     }
     td {
         font-size: 1px;
