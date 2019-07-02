@@ -2,7 +2,7 @@
   <a href="https://github.com/tomuwhu/homepage" title="Homepage">
   </a>
   <br />
-  Your Awesome Homepage
+  My Homepage's source
 </h1>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 <h2>
   <a href="http://www.inf.u-szeged.hu/~tnemeth/" target="_blank" title="Demo">
-    Live Demo
+    This is LIVE here
   </a>
 </h2>
 
@@ -32,14 +32,17 @@ Make sure you have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com)
 
 ```bash
 # Clone the repo
-$ git clone https://github.com/mtobeiyf/vuepress-homepage.git
-$ cd vuepress-homepage
+$ git clone https://github.com/tomuwhu/homepage
+$ cd homepage
 
 # Install dependencies
-$ yarn  # or npm install
+$ npm i
 
 # Run
-$ yarn dev  # or npm run dev
+$ npm run dev
+
+# Build
+$ npm run build
 ```
 
 Check your site at `http://127.0.0.1:8080/`
@@ -64,8 +67,6 @@ It's **responsive** and **mobile friendly**.
 | :---: | :---: | :---: | :---: |
 | <img src="https://user-images.githubusercontent.com/5097752/39163461-30a0e754-47ad-11e8-84ff-0c6716d6e937.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163230-2c917634-47ac-11e8-9c08-a87336c0bb02.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163235-32001436-47ac-11e8-8a80-f5aa1d639b82.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39163238-368bfb5a-47ac-11e8-81b9-78a38af16dfe.jpg"/> |
 
-
-
 ## Credit
 
 [VuePress](https://vuepress.vuejs.org/): Vue-powered Static Site Generator
@@ -74,6 +75,6 @@ It's **responsive** and **mobile friendly**.
 
 ## License
 
-Copyright © 2018, Fing
+Copyright © 2019, NT
 
 Released under the [MIT License](https://opensource.org/licenses/MIT).
