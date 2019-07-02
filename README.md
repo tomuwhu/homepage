@@ -26,9 +26,7 @@
   </a>
 </h2>
 
-Check the full documentation here :point_right: [Guide](https://vuepress-homepage.netlify.com/guide/)
-
-Make sure you have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com) installed.
+Make sure you have [Node.js](https://nodejs.org)
 
 ```bash
 # Clone the repo
@@ -45,7 +43,7 @@ $ npm run dev
 $ npm run build
 ```
 
-Check your site at `http://127.0.0.1:8080/`
+Check your site at `http://localhost:8080/`
 
 ## Features
 
@@ -55,7 +53,7 @@ Check your site at `http://127.0.0.1:8080/`
 - Multi-language support
 - Powered by [VuePress](https://vuepress.vuejs.org/) and [Vue.js](https://vuejs.org/)
 
-It's **static**, which means once generated, your site could be deployed anywhere, like [Netlify](https://www.netlify.com/) or [GitHub Pages]()
+It's **static**, which means once generated, your site could be deployed anywhere, like [GitHub Pages](https://pages.github.com/)
 
 | Simple Editing | Elegant Output |
 | :---: | :---: |
