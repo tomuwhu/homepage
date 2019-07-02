@@ -21,22 +21,33 @@
                 placeholder="Betesz a prioritási sorba" />
         <br>
         <button v-if="type==1 && verem.size"
-                @click="kivett.push(verem.get())">Kivesz a veremből</button>
+                @click="kivett.push(verem.get())"
+                >Kivesz a veremből</button>
         <button v-if="type==2  && sor.size"
-                @click="kivett.push(sor.get())">Kivesz a sorból</button>
+                @click="kivett.push(sor.get())"
+                >Kivesz a sorból</button>
         <button v-if="type==3  && prisor.size"
-                @click="kivett.push(prisor.get())">Kivesz a prioritási sorból</button>
+                @click="kivett.push(prisor.get())"
+                >Kivesz a prioritási sorból</button>
         <hr>
         <table class="s">
             <tr><th>Konténerek</th></tr>
-            <tr v-for="(container,i) in [verem.container,sor.container,prisor.container,kivett]">
+            <tr v-for="(container,i) in [
+                verem.container,
+                sor.container,
+                prisor.container,
+                kivett
+            ]">
                 <td><b>{{ aszlist[i] }}</b></td>
-                <td v-for="elem in container" class="sor">{{ elem }}</td>
+                <td v-for="elem in container"
+                    class="sor">{{ elem }}</td>
             </tr>
         </table>
-        <span v-if="prisor.container.length>1 && prisor.container.length<100">
+        <span v-if="prisor.container.length>1 && 
+                    prisor.container.length<100">
             <br>
-            <div><b>Kupac ábrázolása:</b></div><div>&nbsp;</div>
+            <div><b>Kupac ábrázolása:</b></div>
+            <div>&nbsp;</div>
             <div v-html="kupac(1)" />
         </span>
         <hr>
@@ -52,7 +63,8 @@ class Stack {
     put(x) {
         if (Array.isArray(x)) {
             x.forEach(element => {
-                this.container.push(element), this.size++
+                this.container.push(element), 
+                this.size++
             })
         } else {
             this.container.push(x), this.size++
@@ -69,7 +81,8 @@ class Stack {
     }
     toarray() { // O( n * get() )
             let rv = []
-            while (this.size) rv.push(this.get())
+            while (this.size) 
+                rv.push(this.get())
             return rv
         }
         [Symbol.iterator]() { // O( n * get() )
@@ -189,11 +202,23 @@ export default {
             else sty=''
             if (2*i <= this.prisor.container.length)
                 return `${sty}
-                    <table>
-                        <tr><td></td><td>${this.prisor.container[i-1]}</td><td></td></tr>
-                        <tr><td style="text-align:right;">/</td><td></td><td style="text-align:left;">\\</td></tr>
-                        <tr><td>${this.kupac(2*i)}</td><td></td><td>${this.kupac(2*i+1)}</td></tr>
-                    </table>
+    <table>
+        <tr>
+            <td></td>
+            <td>${this.prisor.container[i-1]}</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">/</td>
+            <td></td>
+            <td style="text-align:left;">\\</td>
+        </tr>
+        <tr>
+            <td>${this.kupac(2*i)}</td>
+            <td></td>
+            <td>${this.kupac(2*i+1)}</td>
+        </tr>
+    </table>
                 `
             else return this.prisor.container[i-1]?this.prisor.container[i-1]:'-'
         }

@@ -13,20 +13,29 @@
         </div>
         <br>
         <hr>
-        <div class="co" :id="windowWidth>600?'so':(windowWidth>300?'ko':'mo')">
-                <div v-if="elem!='! ! ! ! !'" :id="i" @click="rak(elem,i)" :key=i v-for="(elem,i) in mo.split(',')">{{ elem }}</div>
+        <div class="co"
+             :id="windowWidth>600
+                    ?'so'
+                    :(windowWidth>300?'ko':'mo')">
+                <div v-if="elem!='! ! ! ! !'"
+                     :id="i" @click="rak(elem,i)"
+                     :key=i v-for="(elem,i) in mo.split(',')"
+                     >{{ elem }}</div>
         </div>
         <hr>
         <div class=i>
             <table>
-                <td v-for="oszlop in t" :style="`height: ${n*30+10}px;`" >
-                    <div  v-for="korong in oszlop">{{korong}}</div>
+                <td v-for="oszlop in t"
+                    :style="`height: ${n*30+10}px;`">
+                    <div v-for="korong in oszlop"
+                    >{{korong}}</div>
                 </td>
             </table>
         </div>
         <br>
         <hr>
-        <a href="/~tnemeth/examples/algoexamples/Hanoi_forras.html">Forráskód</a>
+        <a href="/~tnemeth/examples/algoexamples/Hanoi_forras.html"
+           >Forráskód</a>
     </div>
 </template>
 <script>
@@ -34,7 +43,9 @@ import { vueWindowSizeMixin } from 'vue-window-size'
 const h = ( a, b, n ) => (
     n < 2
         ? `${ a } -> ${ b }`
-        : `${ h( a, 6-a-b, n-1 ) },${ a } -> ${ b },${ h( 6-a-b, b, n-1 ) }`
+        : `${ h( a, 6-a-b, n-1 ) },
+           ${ a } -> ${ b },
+           ${ h( 6-a-b, b, n-1 ) }`
 )
 export default {
     name: 'hanoi',
@@ -58,7 +69,9 @@ export default {
                 this.a=1
                 this.b=2
             }
-            this.t[this.a-1]=Array(this.n).fill(0).map((v,i) => this.n-i)
+            this.t[this.a-1]=Array(this.n)
+                                .fill(0)
+                                .map((v,i) => this.n-i)
             this.t[this.b-1]=[]
             this.t[6-this.a-this.b-1]=[]
             this.mo = this.n<14?h(this.a, this.b, this.n):'túl nagy az n'

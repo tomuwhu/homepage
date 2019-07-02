@@ -49,10 +49,7 @@ module.exports = {
   markdown: {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true,
-    anchor: { permalink: false },
-    config(md) {
-      md.use(require("markdown-it-mathjax"));
-    }
+    anchor: { permalink: false }
   }
 };
 
