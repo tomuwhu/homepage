@@ -66,7 +66,7 @@ export default {
         text-align: center;
         table {
             border-collapse: inherit;
-            width: 356px;
+            display: initial;
             margin:0px auto;
             border-spacing: 4px;
             td {

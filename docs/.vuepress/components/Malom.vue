@@ -148,8 +148,8 @@ export default {
         text-align: center;
     }
     table {
-        width: 360px;
         border-collapse: inherit;
+        display: initial;
     }
     td {
         font-size: 1px;
