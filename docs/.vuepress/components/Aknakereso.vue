@@ -7,16 +7,23 @@
             @click.alt.exact = "rclick(x,y)"
             @click.ctrl.exact= "rclick(x,y)"
             @click.right.stop.prevent= "rclick(x,y)"
-            v-html="cell==='O'?'&#x1F4A3;':cell==='B'?'&#9873;':cell"
+            v-html="cell==='O'?'&#x1F4A3;':cell==='B'?'<big>&#9873;</big>':cell"
             :class="'p'+cell"></td>
+      </tr>
+      <tr>
+        <td colspan=10 class="blank"></td>
       </tr>
       <tr v-if="!nyert">
         <td colspan=2 class="text">Mód:</td>
         <td class="pB" v-if="!bmode" @click="bmode=true">&#9873;</td>
         <td v-if="bmode" @click="bmode=false"> </td>
         <td colspan="7" class="text">
-          <span v-if="!bmode"> &larr; vedd fel a bombajelölőt! </span>
-          <span v-else> tedd le a bombajelölőt! </span>
+          <span v-if="!bmode"
+                @click="bmode=true"
+                > &#8678; vedd fel a bombajelölőt! </span>
+          <span v-else
+                @click="bmode=false"
+                > &#8678; tedd le a bombajelölőt! &#8679; </span>
         </td>
       </tr>
     </table>
@@ -82,12 +89,15 @@ export default {
         this.rclick(x,y)
         this.bmode=false
       }
+      else if ( !this.nyert && this.table[y][x]==="B" ) {
+          this.rclick(x,y)
+      }     
       else if ( !this.nyert && this.table[y][x]===" " ) {
         if (this.aknak.has(`${x}-${y}`) ) {
           this.nyert=-1
           Array.from(this.aknak).forEach( v => {
               [xp, yp]=v.split('-')
-              this.$set(this.table[yp], xp, 'O')
+              if (this.table[yp][xp]===" ") this.$set(this.table[yp], xp, 'O')
           })
           Array.from(hba).forEach( v => {
               [xp, yp]=v.split('-')
@@ -212,15 +222,16 @@ table {
         padding:3px;
     }
     td.p0 { background-color: #afe9d8; }
-    td.p1 { background-color: #e9cbaf; }
-    td.p2 { background-color: #e9b3af; }
+    td.p1 { background-color: #e6e9af; }
+    td.p2 { background-color: #f5d4a3; }
     td.p3 { background-color: #ff9f9f; }
     td.p4 { background-color: #fa8383; }
     td.p5 { background-color: #f94343; color:white;}
     td.pB {
-        background-color: #3a435c;
-        color:snow;
+        background-color: #ffc3f6;
+        color:rgb(205, 73, 73);
         font-weight: bold;
+        text-shadow: 0 0 2px rgb(0, 60, 255);
     }
     td.pH {
         background-color: #9f0707;
@@ -236,6 +247,13 @@ table {
         background-color: #cecece;
         color:rgb(19, 90, 106);
         font-weight: bold;
+    }
+    td.blank {
+      border:none;
+      background: none;
+      box-shadow: none;
+      height: 10px;
+      cursor: none;
     }
 }
 
