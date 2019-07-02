@@ -9,6 +9,10 @@
             @click="click(i,j)"></td>
       </tr>
     </table>
+    <hr>
+    <div class="link">
+        <a href="./Sakk_forras.html">Forráskód</a>
+    </div>
   </div>
 </template>
 
@@ -181,6 +185,9 @@ td.a1 {
 }
 div.ed {
   font-family:      'Courgette', cursive;
+}
+div.link {
+    text-align:center;
 }
 table.main {
   display: table;
