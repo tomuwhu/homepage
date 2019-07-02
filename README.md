@@ -1,6 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/mtobeiyf/vuepress-homepage" title="Homepage">
-    <img src="https://user-images.githubusercontent.com/5097752/39163721-4c79012c-47ae-11e8-842b-2af72f69cc2c.jpg" width="300px" alt="">
+  <a href="https://github.com/tomuwhu/homepage" title="Homepage">
   </a>
   <br />
   Your Awesome Homepage
@@ -16,23 +15,13 @@
 </p>
 
 <h2>
-  <a href="https://vuepress-homepage.netlify.com" target="_blank" title="Demo">
+  <a href="http://www.inf.u-szeged.hu/~tnemeth/" target="_blank" title="Demo">
     Live Demo
   </a>
 </h2>
 
-Screenshots:
-
-| About Me :raising_hand: | Projects/Publications :books: |
-| :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/5097752/39126631-798faf4a-4735-11e8-993d-6f314d4f2b55.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39126639-7d9511f2-4735-11e8-873e-8042a0116893.png"/> |
-
-| Documentation :closed_book: | Simple Page :memo: |
-| :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/5097752/39138307-3aba2904-4752-11e8-913a-7c716ca7477b.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39139534-c2fa6494-4754-11e8-9dfb-107a3d530797.png"/> |
-
 <h2>
-  <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
+  <a href="https://vuepress.vuejs.org/" target="_blank" title="Getting Started">
     Getting Started
   </a>
 </h2>
