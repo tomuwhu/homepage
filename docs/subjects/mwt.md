@@ -129,7 +129,7 @@ next: /subjects/otir.html
 
 ### 3.1. Javascript futtatása
 
-- node konsole
+- node konzol
 - .js file futtatása (node index.js): console.log
 - a böngészőben: document objektum (write, getElementById, querySelector, title, oncontextmenu, ...)
 
