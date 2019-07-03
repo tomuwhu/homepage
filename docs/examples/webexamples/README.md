@@ -14,4 +14,4 @@
 
 [Szakmai képzéshez tartozó gyűlytemély](http://tom.uw.hu/index.php)
 
-[Vissza a tematikákhoz](/subjects/#korszeru-webtechnologiak-az-oktatasban)
+[Vissza a tematikákhoz](/subjects/)

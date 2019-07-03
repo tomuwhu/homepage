@@ -11,4 +11,4 @@
 - [Régi honlap példaprogramokkal és előadás-anyagokkal](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
 - [Régi algoritmusok és adatszerkezetek II. előadások anyagai](http://www.inf.u-szeged.hu/~tnemeth/alga2/alg2.php)
 
-[Vissza a tematikákhoz](/subjects/#korszeru-webtechnologiak-az-oktatasban)
+[Vissza a tematikákhoz](/subjects/)
