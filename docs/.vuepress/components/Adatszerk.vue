@@ -156,7 +156,6 @@ class PQueue extends Stack {
         } else return null
     }
     fixup(p) { // O(log n)
-        console.log(p)
         let q1 = ( p + 1 ) * 2 ,
             q2 = q1 - 1,
             q = 0
