@@ -131,7 +131,13 @@ next: /subjects/otir.html
 
 - node konzol
 - .js file futtatása (node index.js): console.log
-- a böngészőben: document objektum (write, getElementById, querySelector, title, oncontextmenu, ...)
+- a böngészőben: document objektum 
+  - write, 
+  - getElementById, 
+  - querySelector, 
+  - querySelectorAll,
+  - title, 
+  - oncontextmenu
 
 ### 3.2. JavaScript - ES9 szintaxis
 
