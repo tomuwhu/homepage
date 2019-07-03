@@ -38,14 +38,7 @@ module.exports = {
       }
     }
   },
-  plugins: [
-    ['mathjax', {
-      target: 'svg',
-      macros: {
-        '*': '\\times',
-      },
-    }],
-  ],
+  plugins: [ 'latex' ],
   markdown: {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true,
