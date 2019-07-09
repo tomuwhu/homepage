@@ -261,6 +261,7 @@ next: /subjects/otir.html
 - Worker Threads, cluster, Child Processes *
 - File System
 - Internationalization
+- HTTP
 
 #### 3.6.3. JS könyvtárak és Node.js modulok
 
