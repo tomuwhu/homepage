@@ -42,7 +42,7 @@ next: /subjects/otir.html
   - dns
   - proxy
 
-### 1.4. Vizuális programozás ( Scratch, Lego Mindstorm, Unreal Engine, ... )
+### 1.4. Vizuális programozás ( Scratch, Lego Mindstorm, Unity, Unreal Engine, ... )
 
 - Az első programunk.
 - Objektum fogalma, jellemzők, adatok, metódusok.
@@ -252,6 +252,7 @@ next: /subjects/otir.html
 #### 3.6.2. Globals
 
 - console ( log, time, table, ... )
+- Internationalization
 - eseményvezérelt programozás, events, EventEmitter
 - __dirname, __filename, TextDecoder, util, stream
 - process ( argv, execPath, chdir, env, exit, getid, stdout, ... )
@@ -260,7 +261,6 @@ next: /subjects/otir.html
 - setImmediate, setInterval, setTimeout
 - Worker Threads, cluster, Child Processes *
 - File System
-- Internationalization
 - HTTP
 
 #### 3.6.3. JS könyvtárak és Node.js modulok
@@ -269,6 +269,9 @@ next: /subjects/otir.html
 - require
 - import ( mjs mudules )
 - npm
+  - install
+  - semantic versioning (major, minor, patch)
+  - publish
 - nodemon
 
 #### 3.6.4. Fejlesztés közbeni feladatok
@@ -286,7 +289,7 @@ next: /subjects/otir.html
 - Webpack
 - Grunt
 
-#### 3.6.6. MVC Frameworks ( Koa, Express, Adonis, Basys, Nuxt )
+#### 3.6.6. MVC Frameworks ( Koa, Express, Adonis, Basys, Nuxt, ... )
 
 - 'Hello world' app
 - serving static files
