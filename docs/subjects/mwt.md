@@ -10,9 +10,17 @@ next: /subjects/otir.html
 
 ## 1. Informatikai alapismeretek
 
-### 1.1. Operációs rendszerek
+### 1.1 Bevezetés az informatikába
+
+- Alapdogalmak (jel, adat, információ)
+- Informatikai eszközök működésük és jellemzőik
+- Az informatika története
+- Az informatika területei
+
+### 1.2. Operációs rendszerek
 
 - Operációs rendszer funkciói, típusai.
+- Számítógép kezelése az operációs rendszer grafikus interfészével
 - Shell, kapcsolók, paraméterek, környezeti változók.
 - Konzol alkalmazások, ssh, ftp, ...
 - Shell parancsok
@@ -21,7 +29,19 @@ next: /subjects/otir.html
   - ssh, ftp
 - Shell Scripting
 
-### 1.2. Informatikai alkalmazások
+### 1.3. Felhasználói adatfájlok
+
+- Szövegfájlok, Karakterkódolás ( ASCII, UTF-8)
+- Formázott szöveg (Markdown, KaTeX, HTML, ...)
+  
+---> 2. fejezet
+
+- Dokumentumkészítés ( Markdown, LaTex, ... )
+- Prezentációkészítés ( reveal.js )
+- Képformátumok ( pixeles és vektor-grafikus képek )
+- Hang digitalizálása, hangformátumok
+
+### 1.4. Informatikai alkalmazások
 
 - Program futtatása, grafikus ablak felépítése, felhasználói intefész elemei, kezelésük
 - Programozási környezet kialakítása, lint, beautify. Editor és pluginjai, CodeSandbox (codesandbox.io).
@@ -34,15 +54,28 @@ next: /subjects/otir.html
   - Verziókezelők ( GitHub, GitLab, ... )
   - Collaboration Hubs ( SLACK, ... )
   
-### 1.3. Hálózati alapismeretek
+### 1.5. Hálózati alapismeretek
 
 - hálózati struktúrák
+- hálózati eszközök
 - az internet felépítése működése
   - tcp/ip
   - dns
   - proxy
 
-### 1.4. Vizuális programozás ( Scratch, Lego Mindstorm, Unity, Unreal Engine, ... )
+### 1.6. Digitális tartalmak létrehozása
+
+- Szövegszerkesztés célszoftverrel
+- Tábázatkezelés célszoftverrel
+- Animáció-készítés  célszoftverrel
+- Prezentáció-készítés célszoftverrel
+- Zene-szerkesztés célszoftverrel
+- Film-vágás célszoftverrel
+- Interaktív tartalmak létrehozása célszoftverekkel
+
+### 1.7. Vizuális programozás
+
+( Scratch, Lego Mindstorm, Unity, Unreal Engine, ... )
 
 - Az első programunk.
 - Objektum fogalma, jellemzők, adatok, metódusok.
@@ -52,19 +85,7 @@ next: /subjects/otir.html
 
 ---> 6. fejezet
 
-### 1.5. Felhasználói adatfájlok
-
-- Szövegfájlok, Karakterkódolás ( ASCII, UTF-8)
-- Formázott szöveg (Markdown, KaTeX, HTML, ...)
-  
----> 2. fejezet
-
-- Dokumentumkészítés ( Markdown, LaTex, ... )
-- Prezentációkészítés ( reveal.js )
-- Képformátumok ( pixeles és vektor-grafikus képek )
-- Hang digitalizálása, hangformátumok
-
-### 1.6. A számítógép működése
+### 1.8. A számítógép működése
 
 - Számítógép felépítése, Neumann elvek.
 - Hardver elemek és funkcióik
