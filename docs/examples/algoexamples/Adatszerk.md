@@ -4,3 +4,5 @@ title: Elemi adatszerkezetek (verem, sor, prioritási sor) példaprogramok futta
 ## Elemi adatszerkezetek
 
 <Adatszerk />
+
+<br>

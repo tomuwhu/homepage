@@ -17,7 +17,7 @@
                 placeholder="Betesz a sorba" />
         <input  v-model="elem"
                 v-if="type==3"
-                @keyup.enter="prisor.put(elem),elem=''"
+                @keyup.enter="prisor.put(elem),elem='',rajz()"
                 placeholder="Betesz a prioritási sorba" />
         <br>
         <button v-if="type==1 && verem.size"
@@ -27,7 +27,7 @@
                 @click="kivett.push(sor.get())"
                 >Kivesz a sorból</button>
         <button v-if="type==3  && prisor.size"
-                @click="kivett.push(prisor.get())"
+                @click="kivett.push(prisor.get()),rajz()"
                 >Kivesz a prioritási sorból</button>
         <hr>
         <table class="s">
@@ -47,8 +47,8 @@
                     prisor.container.length<100">
             <br>
             <div><b>Kupac ábrázolása:</b></div>
-            <div>&nbsp;</div>
-            <div v-html="kupac(1)" />
+            <br>
+            <div id="mynetwork"></div>
         </span>
         <hr>
         <a href="Adatszerk_forras.html">Forráskód</a>
@@ -56,6 +56,60 @@
 </template>
 
 <script>
+import vis from 'vis'
+var nodes=[], edges=[], container, data, options, network
+function drawgraph(p1, p2) {
+  nodes = new vis.DataSet(p1)
+  edges = new vis.DataSet(p2)
+  container = document.getElementById('mynetwork')
+  data = { nodes, edges }
+  options = {
+    layout: {
+        hierarchical: {
+            sortMethod: "directed"
+        }
+    },
+    nodes: {
+      shape: 'box',
+      fixed: true,
+      font: {
+        color: '#000',
+        size: 36, // px
+        face: 'Niramit',
+        background: 'none',
+        strokeWidth: 0, // px
+        strokeColor: '#ffffff',
+        align: 'center',
+        multi: false,
+        vadjust: 0
+      },
+      color: {
+        border: '#333333',
+        background: 'rgb(190, 237, 242)',
+        highlight: {
+          border: '#2B7CE9',
+          background: '#42B5BF'
+        }
+      }
+    },
+    edges: {
+      arrows: {
+        to: {enabled: true, scaleFactor:  0.8, type:'arrow'}
+      },
+      arrowStrikethrough: false,
+      chosen: true,
+      color: {
+        color:'#444444',
+        highlight:'#ed4576',
+        hover: '#848484',
+        inherit: 'from',
+        opacity: 1
+      },
+      dashes: false
+    }
+  }
+  network = new vis.Network(container, data, options)
+}
 class Stack {
     constructor() {
         this.container = [], this.size = 0
@@ -187,47 +241,37 @@ export default {
         kivett: [],
         verem: new Stack,
         sor: new BadQueue,
-        prisor: new PQueue
+        prisor: new PQueue,
+        nodes, edges
     }),
     methods: {
+        rajz() {
+            nodes=[];
+            edges=[];
+            this.prisor.container.forEach( (v,i) => {
+                nodes.push({ id: i+1, label: `${ v }` })
+            } ); 
+            this.kupac(1);
+            if (nodes.length>2 && edges.length)
+                drawgraph(nodes, edges );
+            this.nodes=nodes;
+            this.edges=edges;
+        },
         kupac(i) {
-            let sty
-            if (i===1) sty=`
-            <style> 
-                table {margin:0px;}
-                tr {border-top:none;}
-                td { padding: 0px; border:none; text-align:center;}
-            </style>` 
-            else sty=''
-            if (2*i <= this.prisor.container.length)
-                return `${sty}
-    <table>
-        <tr>
-            <td></td>
-            <td>${this.prisor.container[i-1]}</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="text-align:right;">/</td>
-            <td></td>
-            <td style="text-align:left;">\\</td>
-        </tr>
-        <tr>
-            <td>${this.kupac(2*i)}</td>
-            <td></td>
-            <td>${this.kupac(2*i+1)}</td>
-        </tr>
-    </table>
-                `
-            else return this.prisor.container[i-1]
-                            ? this.prisor.container[i-1]
-                            : '-'
+            if (2*i<=nodes.length) {
+                edges.push( { from: i, to: 2*i } );
+                this.kupac(2*i)
+            };
+            if (2*i<nodes.length) {
+                edges.push( { from: i, to: 2*i+1 } );
+                this.kupac(2*i+1)
+            };
         }
     }
 }
 </script>
 
-<style lang=scss scoped>
+<style lang="scss" scoped>
 div#conta {
     input {
         font-size: 20px;
@@ -253,6 +297,12 @@ div#conta {
             font-size: 18px;
             padding: 5px;
         }
+    }    
+    div#mynetwork {
+        height:500px;
+        border: solid 1px black;
+        border-radius:10px;
+        box-shadow: 0 0 4px black;
     }
 }
 </style>

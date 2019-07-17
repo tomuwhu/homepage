@@ -10,12 +10,16 @@ next: /subjects/eli1.html
 - [Régi honlap példaprogramokkal és előadás-anyagokkal](http://www.inf.u-szeged.hu/~tnemeth/alg.php)
 - [Régi algoritmusok és adatszerkezetek II. előadások anyagai](http://www.inf.u-szeged.hu/~tnemeth/alga2/alg2.php)
 
-**Ismeretanyag:**
+## Alapfogalmak, algoritmusok elemei
 
-- Algoritmusok fogalma, elemei (szekvencia, szelekció, iteráció). Változó fogalma, adattípusok.
+- Változó fogalma, adattípusok.
 - Statikus és dinamikus memóriakezelés
 - Elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
-- Algoritmusok elemei magas szintű programozási nyelvekben: szekvencia, szelekció, iteráció, rekurzió.
+- Algoritmusok elemei magas szintű programozási nyelvekben: 
+  - szekvencia, 
+  - szelekció, 
+  - iteráció, 
+  - rekurzió.
 - A tömb fogalma és kezelése.
 - Algoritmusok jellemzői, a futási idő és tárigény fogalma. Elemi kereső és rendező algoritmusok:
   - beszúró- és buborék rendezés, lineáris- és logaritmikus keresés
@@ -23,6 +27,9 @@ next: /subjects/eli1.html
   - függvények növekedési üteme, jelölések
   - rendezések futási idejének elemzése, rendezések típusai.
 - A függvény fogalma, függvényhívás formái, bemeneti paraméterek, visszatérési érték és funkciói.
+
+## Alapvető adatszerkezetek, algortimusok tulajdonságai
+
 - A verem és sor adatszerkezet és működése, a verem jelentősége a függvényhívások folyamán.
 - Rekurzió működése az informatikában, rekurzióval megoldható feladatok.
 - Kupacrendezés, gyorsrendezés, vödrös és radix rendezés, időigény elemzése.
@@ -35,6 +42,9 @@ next: /subjects/eli1.html
   - halmaz és függvény absztrakt adatszerkezet. (Map, Set)
   - hasítótáblák.
 - Amortizációs költségelemzés.
+
+## Nevezetes informatikai problémák és algoritmusok
+
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
 - Eseménytér fogalma, dinamikus programozás, mohó stratégia.
