@@ -12,6 +12,7 @@ module.exports = {
     nav: [
       { text: "Oktatott tárgyak", 
         items: [
+          { text: 'Oktatás', link:'/subjects/index.html' },
           { text: 'Algoritmizálás', link:'/subjects/algo.html' },
           { text: 'Elemi Informatika 1', link:'/subjects/eli1.html' },
           { text: 'Elemi Informatika 2', link:'/subjects/eli2.html' },
@@ -28,6 +29,12 @@ module.exports = {
           { text: 'Algoritmizálás', link:'/examples/algoexamples/' },
           { text: 'JavaScript', link:'/examples/webexamples/' }
         ]
+      },
+      { text: "CV",
+        link: "/cv/" 
+      },
+      { text: "Kutatás",
+       link: "/pl/" 
       }
     ],
     lastUpdated: 'Utoljára frissítve',

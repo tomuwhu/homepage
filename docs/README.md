@@ -18,10 +18,10 @@ socials:
 actions:
 - text: Oktatás
   link: /~tnemeth/subjects/
-links:
 - text: CV
-  link: http://www.inf.u-szeged.hu/~tnemeth/cv.pdf
-- text: Publikációs lista
-  link: https://scholar.google.hu/citations?user=LJqnw1sAAAAJ&hl=hu
+  link: /~tnemeth/cv/
+- text: Kutatás
+  link: /~tnemeth/pl/
+links:
 footer: VuePress weboldal
 ---
