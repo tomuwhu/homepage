@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style lang=scss scoped>
+<style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 #app {
     font-family: 'Roboto Slab', serif;
