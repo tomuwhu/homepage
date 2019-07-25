@@ -25,9 +25,30 @@
                 </td>
                 <td>1973.04.26.</td>
             </tr>
+            <tr class="row">
+                <td>
+                    <img class="ico" 
+                        :src="`/~tnemeth/icons/${ icolist[0].icon }.svg`" 
+                        :alt="icolist[0].name"
+                        :title="icolist[0].name" />
+                </td>
+                <td>tomuwhu</td>
+            </tr>
         </table>
     </div>
 </template>
+
+<script>
+export default {
+    data: () => ({
+        icolist: [
+            { icon: 'steam', name: 'Steam' }, 
+            { icon: 'battlenet', name:'Battle.net' },
+            { icon: 'gh', name: 'Hangout' }
+        ].sort( () => Math.random()-0.5 )
+    })
+}
+</script>
 
 <style lang="scss" scoped>
     table {

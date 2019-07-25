@@ -10,6 +10,7 @@
   - egyetemi adjunktus (2015.01.01 - től)
   - Intézetvezető helyettes (2014.-2017.)
   - tanársegéd (2011.01.01. - 2014.12.31.)
+- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) (2001. - 2005, 2019.-)
 - SNW Systems Kft.
   - ügyvezető (2008. - 2019.) 
 - [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/)
@@ -18,7 +19,6 @@
 - [Szegedi Szakképzési Centrum](http://szakkepzesszeged.hu/)
   - Móravárosi Szakgimnáziuma és Szakközépiskolája (2001.- 2010.)
   - Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995. - 2000.)
-- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) (2001. - 2005, 2019-)
 - Széchenyi István Gimnázium és Szakközépiskola (2000.-2001.)
 - Agroker RT. (1994.-1995.)
 

@@ -303,7 +303,7 @@ next: /subjects/otir.html
 - Hibakeresés
 - Tesztelés ( Mocha )
 - Automatikus tesztelés
-- Dokumentáció generálás ( JSDoc, VuePress, ... )
+- Dokumentáció generálás ( JSDoc, ... )
 
 #### 3.6.5 Node Fejlesztői környezetek
 
