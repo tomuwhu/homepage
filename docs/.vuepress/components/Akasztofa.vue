@@ -11,7 +11,6 @@ const szt = [
     ''
 ]
 export default {
-
     methods: {
         f(e) {
             console.log(e.key);
@@ -21,5 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+input {
+    font-size: 20px;
+}
 </style>
