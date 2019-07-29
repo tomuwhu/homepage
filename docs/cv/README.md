@@ -10,7 +10,9 @@
   - egyetemi adjunktus (2015.01.01 - től)
   - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
   - tanársegéd (2011.01.01. - 2014.12.31.)
-- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) (2001. - 2005, 2019.-)
+- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) 
+  - tanár (2001.-2004.)
+  - óraadó (2004.-2005., 2019.-től)
 - SNW Systems Kft.
   - ügyvezető (2008. - 2019.)
   - szoftverfejlesztés irányítása
@@ -32,6 +34,7 @@
 - Earsmus ösztöndíj (2009.)
 - Makovecz ösztöndíj (2017.)
 - Az SZTE TTIK Aranykréta-díja (2017/2018. tanév)
+- Nemzeti Tehetségprogram (2015., 2016., 2017.)
 
 ### Végzettségek
 
