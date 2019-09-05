@@ -39,8 +39,13 @@ next: /subjects/szmt1.html
 
 **Kötelező irodalom:**
 
+- [logo.inf.elte.hu/](http://logo.inf.elte.hu)
 - [nemes.inf.elte.hu](http://nemes.inf.elte.hu)
+- [NemesTihamér versenyfeladatok](http://tehetseg.inf.elte.hu/nemes-online/index.html)
+- [Mester](http://mester.inf.elte.hu/)
+- [SPOJ](https://www.spoj.com/)
+- [HackerRank](https://www.hackerrank.com/)]
+- [ACM](https://icpc.baylor.edu/worldfinals/problems)
 - [www.cs.bme.hu/acm/](http://www.cs.bme.hu/acm/)
 - [www.ioinformatics.org](http://www.ioinformatics.org)
-- [logo.inf.elte.hu/](http://logo.inf.elte.hu)
 - T. H. Cormen, C. E. Leiserson, R.L. Rivest, C. Stein: Új algoritmusok, Scolar Kiadó, 2003.

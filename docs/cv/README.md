@@ -6,13 +6,13 @@
 
 ### Szakmai tapasztalat
 
-- [Szegedi Tudományegyetem - Informatikai Intézet](http://www.inf.u-szeged.hu/)
-  - egyetemi adjunktus (2015.01.01 - től)
+- [<b>Szegedi Tudományegyetem - Informatikai Intézet</b>](http://www.inf.u-szeged.hu/)
+  - <b>egyetemi adjunktus (2015.01.01 - től jelenleg)</b>
   - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
   - tanársegéd (2011.01.01. - 2014.12.31.)
-- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage) 
+- [<b>Radnóti Miklós Kísérleti Gimnázium</b>](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage)
+  - <b>óraadó (2004.-2005., 2019.-től jelenleg)</b>
   - tanár (2001.-2004.)
-  - óraadó (2004.-2005., 2019.-től)
 - SNW Systems Kft.
   - ügyvezető (2008. - 2019.)
   - szoftverfejlesztés irányítása
@@ -31,10 +31,12 @@
 
 ### Díjak, ösztöndíjak
 
-- Earsmus ösztöndíj (2009.)
+- [Új Nemzeti Kiválóság Program ösztöndíj (2019.09.-től jelenleg)](http://www.unkp.gov.hu/unkp-rol)
+- Emberi Erőforrás Fejlesztési Operatív Program (2011-től jelenleg)
 - Makovecz ösztöndíj (2017.)
 - Az SZTE TTIK Aranykréta-díja (2017/2018. tanév)
-- Nemzeti Tehetségprogram (2015., 2016., 2017.)
+- Nemzeti Tehetségprogram Pályázatok (2015., 2016., 2017.)
+- Earsmus ösztöndíj (2009.)
 
 ### Végzettségek
 
@@ -53,3 +55,9 @@
   - Vezetékes Távközléstechnikai Műszerész (1991.)
 
 [Europass](http://www.inf.u-szeged.hu/~tnemeth/cv.pdf)
+
+<style>
+b {
+    color: #116342;
+}
+</style>

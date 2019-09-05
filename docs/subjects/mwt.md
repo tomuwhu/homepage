@@ -19,19 +19,23 @@ next: /subjects/otir.html
 
 ### 1.2. Operációs rendszerek
 
-- Operációs rendszer funkciói, típusai.
-- Számítógép kezelése az operációs rendszer grafikus interfészével
+- Operációs rendszer alapvető feladatai, tulajdonságai, típusai, felületei.
+- Számítógép kezelése az operációs rendszer grafikus interfészével.
+- Fájlrendszerek, prartíciók, alrendszerek.
+- Processzusok, fonalak, erőforrások, ütemezés.
 - Shell, kapcsolók, paraméterek, környezeti változók.
 - Konzol alkalmazások, ssh, ftp, ...
 - Shell parancsok
   - fájl és könyvtárstruktúra és kezelése (cd, ls, mkdir, rm, chmod, chown, ...)
   - processek és kezelésük (&, ps, top, kill, )
+  - jogosultságkezelés, felhasználók kezelése
+  - linkek, környezeti változók, szűrük
   - ssh, ftp
 - Shell Scripting
 
 ### 1.3. Felhasználói adatfájlok
 
-- Szövegfájlok, Karakterkódolás ( ASCII, UTF-8)
+- Szövegfájlok, karakterkódolás (ASCII, ISO-8859-2, UTF-8).
 - Formázott szöveg (Markdown, KaTeX, HTML, ...)
   
 ---> 2. fejezet
@@ -40,35 +44,54 @@ next: /subjects/otir.html
 - Prezentációkészítés ( reveal.js )
 - Képformátumok ( pixeles és vektor-grafikus képek )
 - Hang digitalizálása, hangformátumok
+- Video formátumok + multi formátumok
 
 ### 1.4. Informatikai alkalmazások
 
 - Program futtatása, grafikus ablak felépítése, felhasználói intefész elemei, kezelésük
-- Programozási környezet kialakítása, lint, beautify. Editor és pluginjai, CodeSandbox (codesandbox.io).
-- Számítógépes játékok
+- Internetes alkalmazások:
+  - hírportálok
+  - felhő alapú szolgáltatások
+  - közösségi médiák, profilok, álprofilok
+  - elektronikus banki és ügyfélkapcsolati szolgáltatások
+  - digitális térképek és alkalmazásai
+- Számítógépes játékok:
+  - Keretrendszerek (Steam, EPIC, Battle.net, ...) 
   - Arcade játékok: Pacman, Super Mario, ...
-  - Stratégiai játékok: StarCraft, ...
-  - FPS: UT, CS:GO, ...
+  - Stratégiai játékok (StarCraft, Sims, Age of...)
+  - FPS (UT, CS:GO, Fortnite, ...)
+  - Racing (F1, NFS, ...)
+  - Saját játékok és digitális tartalom fejlesztése (Unreal Engine, Unity, ...)
+- Virtuális valóság és alkalmazásai.
 - Csoportunka szoftverek
   - Felhő-alkalmazások, felhő-szolgáltatások
   - Verziókezelők ( GitHub, GitLab, ... )
   - Collaboration Hubs ( SLACK, ... )
+- Kódszerkesztő programok (Visual Studio Code, Coda, ...)
+  - programozási környezet kialakítása, lint, beautify
+  - editor kezelése és pluginjai, 
+  - CodeSandbox (codesandbox.io)
   
 ### 1.5. Hálózati alapismeretek
 
 - hálózati struktúrák
 - hálózati eszközök
+- kliens-szerver architektúra
+- peer-to-peer hálózatok
 - az internet felépítése működése
-  - tcp/ip
-  - dns
-  - proxy
+  - protokollok (http, ftp, tcp/ip, pop3/imap/smtp)
+  - címzések (ip-cím, dns)
+  - szerver típusok (tűzfal, proxy, NAT, DHCP)
+  - hálózati eszközök (router, switch, ...)
 
 ### 1.6. Digitális tartalmak létrehozása
 
 - Szövegszerkesztés célszoftverrel
 - Tábázatkezelés célszoftverrel
+- Diagramtípusok, grafikonok készítése
 - Animáció-készítés  célszoftverrel
 - Prezentáció-készítés célszoftverrel
+- Képszerkesztés, grafikai programok használata
 - Zene-szerkesztés célszoftverrel
 - Film-vágás célszoftverrel
 - Interaktív tartalmak létrehozása célszoftverekkel
@@ -101,6 +124,19 @@ next: /subjects/otir.html
 - Operációs rendszer szerepe a programok futtatásában.
 - Programok felépítése, felhasználói interfészek típusai.
 - A böngésző kezelése, fejlesztői eszközök, bővítmények
+
+### 1.9 Információs társadalom
+
+- informatikai biztonság
+- adatvédelmi irányelvek
+- szerzői joggal kapcsolatos alapfogalmak
+- kommunikációs illemszabályok
+- az információ és az informatika 
+  - gazdaságra, 
+  - környezetre, 
+  - kultúrára, 
+  - személyiségre, 
+  - egészségre gyakorolt hatása.
 
 ## 2. Web alapismeretek
 
@@ -216,27 +252,20 @@ next: /subjects/otir.html
 - continue
 - try ... catch, throw
 
-#### 3.2.6. Callback függvények
+#### 3.2.6. JS és HTML kapcsolata
+
+- JS Stringkezelés a gyakorlatban
+- HTML generálás JS segítségével
+- SVG generálás JS segítségével
+
+#### 3.2.7. Callback függvények
 
 - Callback függvény. Promise objektum. Async Functions.
 - Párhuzamos programozás, Worker
 
-#### 3.2.7 TypeScript
-
-- Alapvető típusok
-- Változódeklaráció
-- Interfészek
-- Osztályok (Classes)
-- Mixins
-- Függvények
-- Generikusok
-- Enum típus
-- Modulok
-- Névterek
-- JSX
-
 ### 3.3. Böngésző funkciók
 
+- HTML DOM elérése JS-ből
 - HTML APIs (Geolocation, Drag&Drop, Local Storage, Web Workers, SSE )
 - Böngésző local tárolók (Session Storage, IndexedDB, Web SQL, Cookies).
 
@@ -344,7 +373,43 @@ next: /subjects/otir.html
 
 ## 4. Adatbáziskezelés
 
+### 4.1 Áttekintés
+
 - NoSQL és SQL adatbázisok (NeDB, MongoDB, SQLite, MySQL, PostgreSQL...).
+
+### 4.2 NoSQL adatbázisok
+
+- Kulcs-érték adatbázisok
+- Gráf adatbázisok
+- Dokumentumtárolók (NeDB, MongoDB, ...)
+- Objektum-adatbázisok
+
+### 4.3 Relációs adatbázisok
+
+#### 4.3.1 Adatbázisok felépítése, tervezése
+
+- alapelemek, egyed, tulajdonság, kapcsolat
+- funkcionális függések és kulcsok a relációs modellben
+- relációk normalizálása, normálformák
+
+#### 4.3.2 Az SQL nyelv
+
+- kiválasztó lekérdezések az SQL nyelvben
+- csoportosító lekérdezések az SQL nyelvben
+- több táblára vonatkozó lekérdezések
+- beágyazott lekérdezések
+- adatbázis módosítása SQL-lel, relációsémák definiálása
+- SQL beépítése programozási környezetbe
+
+#### 4.3.3 A MySQL használata
+
+- szerver-adminisztráció
+- mysql kliensek
+- adattípusok, változók
+- operátorok, függvények
+- SQL utasítások használata
+- tárolt objektumok (eljátások, nézetek, algoritmusok)
+- connector-ok és API-k
 
 ## 5. Alkalmazásfejlesztés
 
@@ -368,6 +433,7 @@ next: /subjects/otir.html
 
 ### 6.1 Alapfogalmak, algoritmusok elemei
 
+- Számítási problémák és típusaik.
 - Változó fogalma, adattípusok.
 - Statikus és dinamikus memóriakezelés
 - Elemi utasítások, a gépi kód működése. Szekvencia, ugrás, feltételes ugrás, szubrutin hívása.
@@ -401,21 +467,54 @@ next: /subjects/otir.html
 
 ### 6.3 Nevezetes informatikai problémák és algoritmusok
 
+- Mintaillesztés: automatával, Knuth-Morris-Pratt algoritmus.
+- Hátizsák feladat, tükörszó probléma.
+- Eseménytér fogalma, dinamikus programozás, mohó stratégia.
+- Optimális pénzváltás, hátizsák probléma, türedékes hátizsák probléma
+- Csoportkép optimális időpontjainak meghatározása feladat.
+- Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
-- Eseménytér fogalma, dinamikus programozás, mohó stratégia.
 - Gráf-algoritmusok (gráf bejárás, Floyd-Warshall, PageRank algoritmus).
 - Dijkstra- és A* algoritmus.
 - Speciális gráfok, páros gráfok és párosítási problémák. Magyar módszer.
 - Kruskal-algoritmus, halmazerdő adatszerkezet. Prím-algoritmus.
-- A mesterséges Intelligencia alapfogalmai.
-- Visszalépéses keresés, alfa-béta vágás, gráfjátékok.
-- Mintaillesztés automatával, Knuth-Morris-Pratt algoritmus.
-- Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Ajánlórendszerek. Számítási bonyolultság fogalma, Turing-gép, bonyolultsági osztályok.
 - Gráfok tulajdonságai, gráf alapú adatbányászati módszerek. Adattudomány.
+- A mesterséges intelligencia alapfogalmai.
+- Visszalépéses keresés, alfa-béta vágás, gráfjátékok.
 - Approximációs algoritmusok, utazóügynök probléma és időbonyolultsága, approximációs megoldások.
 - Tanuló algoritmusok, genetikus algoritmusok.
 - Neurális hálózatok, gépi tanulás. Tensorflow.
+- Véletlenített algoritmusok.
+- Online problémák és online algoritmusok:
+  - átlagos eset elemzés, versenyképességi elemzés
+  - online algoritmusok empírikus vizsgálata
+  - online klaszterezezési és ütemezési feladatok
+  - online nyugtázás, ládapakolás, k-szerver probléma
+  - véletlenített online algoritmusok
+  - online tanuló algoritmusok
 
-[Példaprogramok](/examples/webexamples/)
+## 7. TypeScript
+
+- Alapvető típusok
+- Változódeklaráció
+- Interfészek
+- Osztályok (Classes)
+- Mixins
+- Függvények
+- Generikusok
+- Enum típus
+- Modulok
+- Névterek
+- JSX
+
+## Továbblépési / Gyakorlási lehetőségek
+
+- [Példaprogramok](/examples/webexamples/)
+- Gyakorló feladatok, felületek
+  - [NemesTihamér versenyfeladatok](http://tehetseg.inf.elte.hu/nemes-online/index.html)
+  - [Mester](http://mester.inf.elte.hu/)
+  - [SPOJ](https://www.spoj.com/)
+  - [HackerRank](https://www.hackerrank.com/)]
+  - [ACM](https://icpc.baylor.edu/worldfinals/problems)

@@ -64,3 +64,8 @@ next: /subjects/sztai.html
 - Ismeri  és  alkalmazza  a  tudásellenőrzés  és  a  képességmérés  legkorszerűbb  eredményeit, eszközeit.  
 - Tájékozott  a  különböző  feladatbankokról  és  gyűjteményekről,  képes  ilyenek  összeállítására, illetve alkalmazására. Tantárgyi követelmények kidolgozására képes.  
 - Képes a tanulók személyre szabott, differenciált módszerekkel történő értékelésére.
+
+#### Látogatható órák
+
+- [Szoftverfejlesztő képzés](/subjects/szmalk/szoftverfejleszt.html)
+- [Gimnáziumi képzés 9. évfolyam](http://www.inf.u-szeged.hu/~tnemeth/pdf/informat_9-12.pdf)

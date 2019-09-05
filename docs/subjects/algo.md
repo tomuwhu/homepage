@@ -37,27 +37,49 @@ next: /subjects/eli1.html
 - Struktúra és Osztály típus. Láncolt listák és megvalósításuk.
 - Elemi és absztrakt adatszerkezetek, az interfész funkciója:
   - verem, sor
-  - bináris kupac, prioritási sor, binomiáris kupac és alkalmazásai
+  - bináris kupac, prioritási sor, binomiális kupac és alkalmazásai
+  - halmaz és függvény absztrakt adatszerkezet (Map, Set)
   - bináris keresőfák, önszervező keresőfák (Splay, AVL, 2-3, B, Piros-fekete)
-  - halmaz és függvény absztrakt adatszerkezet. (Map, Set)
-  - hasítótáblák.
+  - hasítótáblák, ugrólisták
 - Amortizációs költségelemzés.
+- Kettős adatszerkezetek.
 
-## Nevezetes informatikai problémák és algoritmusok
+### 6.3 Nevezetes informatikai problémák és algoritmusok
 
+- Mintaillesztés: automatával, Knuth-Morris-Pratt algoritmus.
+- Hátizsák feladat, tükörszó probléma.
+- Eseménytér fogalma, dinamikus programozás, mohó stratégia.
+- Optimális pénzváltás, hátizsák probléma, türedékes hátizsák probléma
+- Csoportkép optimális időpontjainak meghatározása feladat.
+- Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
-- Eseménytér fogalma, dinamikus programozás, mohó stratégia.
 - Gráf-algoritmusok (gráf bejárás, Floyd-Warshall, PageRank algoritmus).
 - Dijkstra- és A* algoritmus.
 - Speciális gráfok, páros gráfok és párosítási problémák. Magyar módszer.
 - Kruskal-algoritmus, halmazerdő adatszerkezet. Prím-algoritmus.
-- A mesterséges Intelligencia alapfogalmai.
-- Visszalépéses keresés, alfa-béta vágás, gráfjátékok.
-- Mintaillesztés automatával, Knuth-Morris-Pratt algoritmus.
-- Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Ajánlórendszerek. Számítási bonyolultság fogalma, Turing-gép, bonyolultsági osztályok.
 - Gráfok tulajdonságai, gráf alapú adatbányászati módszerek. Adattudomány.
+- A mesterséges intelligencia alapfogalmai.
+- Visszalépéses keresés, alfa-béta vágás, gráfjátékok.
 - Approximációs algoritmusok, utazóügynök probléma és időbonyolultsága, approximációs megoldások.
 - Tanuló algoritmusok, genetikus algoritmusok.
 - Neurális hálózatok, gépi tanulás. Tensorflow.
+- Véletlenített algoritmusok.
+- Online problémák és online algoritmusok:
+  - átlagos eset elemzés, versenyképességi elemzés
+  - online algoritmusok empírikus vizsgálata
+  - online klaszterezezési és ütemezési feladatok
+  - online nyugtázás, ládapakolás, k-szerver probléma
+  - véletlenített online algoritmusok
+  - online tanuló algoritmusok
+
+### Külső hivatkozások
+
+- [Példaprogramok](/examples/webexamples/)
+- Gyakorló feladatok, felületek
+  - [NemesTihamér versenyfeladatok](http://tehetseg.inf.elte.hu/nemes-online/index.html)
+  - [Mester](http://mester.inf.elte.hu/)
+  - [SPOJ](https://www.spoj.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+  - [ACM](https://icpc.baylor.edu/worldfinals/problems)
