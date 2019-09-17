@@ -24,7 +24,7 @@ Nagyobb feladatok megoldása csoportban.
 Javasolt programozási nyelvek: C#, Java
 
 ### 17.3.2. Programozási nyelv II.
-
+ 
 93 óra
 
 A témakör oktatásának célja, hogy a tanuló a képzés során megtanuljon alkalmazni egy elterjedt, objektum orientált második programozási nyelvet feladatok megoldásához. 
