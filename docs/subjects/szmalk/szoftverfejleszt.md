@@ -13,14 +13,14 @@ SZAKKÉPZÉSI KERETTANTERV
 A témakör oktatásának célja, hogy a programozás és adatbázis-kezelés követelménymodul keretein belül megismert programozási nyelv haladó alkalmazásával fejlessze a tanulók algoritmizálási és kódolási készségeit, az elméletben megismert technológiákhoz gyakorlati példákat mutasson be. Egy elterjed 105. 
 
 módszer alkalmazásával a tanulók megismerjék a csoportban végzett szoftverfejlesztés gyakorlatát. 
-Csoportmunkát és verziókövetést támogató eszközök alkalmazása. 
-Programok strukturálása a clean code elveinek betartásával. 
-Öröklés és polimorfizmus, interface-ek, absztrakt osztályok alkalmazása. 
-Speciális modulok, osztályok, lambda kifejezések használata, készítése. 
-Hash táblák műveletei. 
+Csoportmunkát és verziókövetést támogató eszközök alkalmazása.
+Programok strukturálása a clean code elveinek betartásával.
+Öröklés és polimorfizmus, interface-ek, absztrakt osztályok alkalmazása.
+Speciális modulok, osztályok, lambda kifejezések használata, készítése.
+Hash táblák műveletei.
 Fa és gráf adatszerkezetek alkalmazása feladatok megoldása során. 
-Az „A star” (A*) algoritmus alkalmazása. 
-Nagyobb feladatok megoldása csoportban. 
+Az „A star” (A*) algoritmus alkalmazása.
+Nagyobb feladatok megoldása csoportban.
 Javasolt programozási nyelvek: C#, Java
 
 ### 17.3.2. Programozási nyelv II.

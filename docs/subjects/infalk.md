@@ -9,19 +9,17 @@ next:  /subjects/mwt.html
 ## A tárgy ismeratanyaga
 
 1. A közoktatásban használt alkalmazói rendszerek áttekintése, alkalmazási lehetőségeinek feltárása.
-2. A közoktatásban használt programozási nyelvek (scriptnyelvek) áttekintése.
-3. Szövegszerkesztés (körlevél készítés, stílusok készítése, használata). Kiadvány- és webszerkesztés.
-4. Prezentáció készítés gyakorlati problémái, programozott animáció készítése prezentációkhoz.
-5. Számítógépes grafika, számítógépes fényképfeldolgozás, digitális kamera használata.
-6. A közoktatásban is használható multimédiás szoftverek alkalmazásánal lehetőségei informatika és szaktárgyi órákon.
-7. Egyszerű játékprogramok készítésének lehetőségei a közoktatás keretei között.
-8. Objektumorientált programozási feladatok szövegszerkesztő és táblázatkezelő programok használatával.
-9. Gyakorlati feladatok a szövegszerkesztés témakörhöz.
-10. Gyakorlati feladatok a kiadvány- és webszerkesztés témakörhöz.
-11. Gyakorlati feladatok a prezentációkészítés témakörhöz.
-12. Gyakorlati feladatoka számítógépes grafika, fényképfeldolgozás, digitális kamera témakörhöz.
-13. Gyakorlati feladatok a játékprogramok készítése témakörhöz.
-14. Gyakorlati feladatok az Excel programozása témakörhöz.
+2. Verziókezelés alapjai.
+3. Elosztott verziókezelés alapjai (git).
+4. A közoktatásban használt programozási nyelvek (scriptnyelvek) áttekintése.
+5. Szövegszerkesztés (körlevél készítés, stílusok készítése, használata).
+6. Táblázatkezelés és adatbáziskezelés a közoktatásban. SQL és NoSQL.
+7. Kiadvány- és webszerkesztés.
+8. Prezentáció készítés gyakorlati problémái, programozott animáció készítése prezentációkhoz.
+9. Számítógépes grafika, számítógépes fényképfeldolgozás, digitális kamera használata.
+10. A közoktatásban is használható multimédiás szoftverek alkalmazásának lehetőségei informatika és szaktárgyi órákon.
+11. Egyszerű játékprogramok készítésének lehetőségei a közoktatás keretei között.
+12. Objektumorientált programozási feladatok szövegszerkesztő és táblázatkezelő programok használatával.
 
 ### A közoktatásban használt alkalmazói rendszerek áttekintése
 

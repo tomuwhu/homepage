@@ -10,9 +10,14 @@
   - <b>egyetemi adjunktus (2015.01.01 - től jelenleg)</b>
   - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
   - tanársegéd (2011.01.01. - 2014.12.31.)
+  - óraadó (2008.09.01. - 2010.12.31.)
 - [<b>Radnóti Miklós Kísérleti Gimnázium</b>](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage)
   - <b>óraadó (2004.-2005., 2019.-től jelenleg)</b>
   - tanár (2001.-2004.)
+- Egyéni vállalkozó (2008.04.17-től jelenleg)
+  - informatika oktatás: szoftverfejlesztő képzések (School of Business, SzámPont Kft., ...)
+  - táncoktatás: társastánc, sporttánc (Papiron SC, Kincso Alapítvány, KrupArt Kft., ... )
+  - egyedi szoftverfejlesztés ([Szegedi Zsidó Archívum](https://szegedjewisharchive.org/), Iskolai adminisztrációs szoftverek, ...)
 - SNW Systems Kft.
   - ügyvezető (2008. - 2019.)
   - szoftverfejlesztés irányítása
