@@ -5,4 +5,6 @@ title: File reader példaprogram futtatása
 
 <FileReader />
 
-[Forrás](/examples/webexamples/FileReader_forras.html)
+### Forrás:
+
+<<< @/docs/.vuepress/components/FileReader.vue

@@ -5,4 +5,6 @@ title: File reader példaprogram futtatása
 
 <FileWriter />
 
-[Forrás](/examples/webexamples/FileWriter_forras.html)
+### Forrás:
+
+<<< @/docs/.vuepress/components/FileWriter.vue
