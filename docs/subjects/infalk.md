@@ -1,5 +1,5 @@
 ---
-prev: /subjects/eli2.html
+prev: /subjects/ifi.html
 next:  /subjects/mwt.html
 ---
 # Informatikai alkalmazások

@@ -17,6 +17,7 @@ module.exports = {
           { text: 'Elemi Informatika 2', link:'/subjects/eli2.html' },
           { text: 'Informatikai alapismeretek', link:'/subjects/mwt.html' },
           { text: 'Informatikai alkalmazások', link:'/subjects/infalk.html' },
+          { text: 'Intelligens felhasználói interfészek', link:'/subjects/ifi.html' },
           { text: 'Oktatást Támogató Informatikai Rendszerek', link:'/subjects/otir.html' },
           { text: 'Problémamegoldó szeminárium', link:'/subjects/pmsz.html' },
           { text: 'Szakmódszertan 1', link:'/subjects/szmt1.html' },
