@@ -1,6 +1,6 @@
 # JavaScript példaprogramok 
 
-(a modern webtechnológiák kurzushoz)
+(A Számítástechnikai alapismeretek és az Intelligens felhasználói interfészek kurzusokhoz)
 
 ## VueComponens pédák
 
