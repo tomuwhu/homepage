@@ -45,7 +45,6 @@ module.exports = {
       }
     }
   },
-  plugins: [ 'latex' ],
   markdown: {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true,
