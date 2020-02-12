@@ -4,6 +4,7 @@
 | ---: | :------------------------------------------------------------- | :--------------------------------------------------------------------------- | :-------------- |
 |   1. | [Hanoi](/examples/algoexamples/Hanoi.html)                     | [Hanoi forrás](/examples/algoexamples/Hanoi_forras.html)                     | Rekurzió        |
 |   2. | [Tükörszó](/examples/algoexamples/Tukorszo.html)               | [Tükörszó forrás](/examples/algoexamples/Tukorszo_forras.html)               | Rekurzió        |
+|   3. | [Elemi adatszerkezetek](/examples/algoexamples/Adatszerk.html)               | [Elemi adatszerkezetek forrás](/examples/algoexamples/Adatszerk_forras.html)               | Rekurzió        |
 
 ## Régi pédák és oktatási anyagok
 
