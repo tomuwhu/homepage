@@ -2,7 +2,7 @@
 
 <Chart />
 
-Forrás: 
+### Forrás:
 
 <<< @/docs/.vuepress/components/Chart.vue
 

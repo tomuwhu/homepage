@@ -6,7 +6,10 @@
 
 [FileReader](/examples/webexamples/FileReader.html) -  -  - 
 [FileWriter](/examples/webexamples/FileWriter.html) -  -  - 
-[Chart és Graph vizualizáció](/examples/webexamples/ChartJS.html)
+[Chart és Graph vizualizáció](/examples/webexamples/ChartJS.html) -  -  - 
+[Űrlap példa](/examples/webexamples/Urlap.html)
+
+[Sorrendező űrlap elem példa](/examples/webexamples/Orderdrag.html)
 
 ## Komplex single komponens pédák 
 
