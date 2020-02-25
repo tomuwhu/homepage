@@ -49,6 +49,9 @@ module.exports = {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true,
     anchor: { permalink: false }
-  }
+  },
+  plugins: [
+    '@dovyp/vuepress-plugin-clipboard-copy',
+    ['minimal-analytics', {ga: 'UA-5141940-1'}]
+  ]
 };
-
