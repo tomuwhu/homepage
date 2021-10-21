@@ -25,12 +25,15 @@
 
 ### Szakmai tapasztalat
 
-- [<b>Szegedi Tudományegyetem - Informatikai Intézet</b>](http://www.inf.u-szeged.hu/)
-  - <b>egyetemi adjunktus (2015.01.01 - től jelenleg)</b>
-  - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
-  - tanársegéd (2011.01.01. - 2014.12.31.)
-  - óraadó (2008.09.01. - 2010.12.31.)
-- Egyéni vállalkozó (2008.04.17-től jelenleg)
+- Szegedi Tudományegyetem
+  - [<b>Informatikai Intézet</b>](http://www.inf.u-szeged.hu/)
+    - <b>egyetemi adjunktus (2015.01.01 - től jelenleg)</b>
+    - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
+    - tanársegéd (2011.01.01. - 2014.12.31.)
+    - óraadó (2008.09.01. - 2010.12.31.)
+  - Gyakorló Gimnázium
+    - óraadó (2021.-)
+- Egyéni vállalkozó (2008.-2020.)
   - informatika oktatás: szoftverfejlesztő képzések (School of Business, SzámPont Kft., ...)
   - táncoktatás: társastánc, sporttánc (Papiron SC, Kincso Alapítvány, KrupArt Kft., ... )
   - egyedi szoftverfejlesztés ([Szegedi Zsidó Archívum](https://szegedjewisharchive.org/), Iskolai adminisztrációs szoftverek, ...)
