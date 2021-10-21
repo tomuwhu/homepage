@@ -50,7 +50,7 @@ A nyelvek alapjai (Python, JavaScript) külön tantárgyakban kerül feldolgozá
 - Kiadványszerkesztés folyamata: Tipográfiai tervezés, Szövegfeldolgozás, Képfeldolgozás, nyomdai előkészítés
 - Termék kigyártásának folyamatai (Szövegszerkesztés, Korrektúra)
 
-### Táblázatkezelés és adatbáziskezelés a közoktatásban. SQL és NoSQL.
+### Táblázatkezelés és adatbáziskezelés a közoktatásban, SQL és NoSQL
 
 Az SQL nyelv alapjai és a MS ACCES használata külön tantárgyakban kerül feldolgozásra (Adatbáziskezelés, Adazbáziskezelés a közoktatásban)
 
