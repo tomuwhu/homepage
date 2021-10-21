@@ -1,8 +1,3 @@
----
-prev: /subjects/eli2.html
-next:  /subjects/infalk.html
----
-
 # Intelligens felhasználói interfészek
 
 [[toc]]

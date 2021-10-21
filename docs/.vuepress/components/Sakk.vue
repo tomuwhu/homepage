@@ -147,7 +147,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 @import url('https://fonts.googleapis.com/css?family=Courgette|Metamorphous|Pacifico');
 #app {
   margin: 0 auto;

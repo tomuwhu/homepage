@@ -143,60 +143,60 @@ export default {
 }
 </script>
 
-<style lang=scss scoped>
-    #base {
-        text-align: center;
-    }
-    table {
-        border-collapse: inherit;
-        display: table;
-    }
-    td {
-        font-size: 1px;
-        text-align: center;
-    }
-    td.d1 {
-        box-shadow: 0px 0px 3px black;
-        border-color: rgb(150, 133, 111);
-        border-radius: 18px;
-        border: solid 2px black;
-        width: 20px;
-        height: 20px;
-    }
-    td.d2, td.d3{
-        width: 20px;
-        height: 20px;
-        background-color: rgb(128, 128, 128);
-        border-radius: 9px;
-    }
-    div.O {
-        margin: 0px auto;
-        border-radius: 20px;
-        width: 16px;
-        height: 15px;
-    }
-    div.Empty {
-        width: 20px;
-        height: 20px;
-    }
-    div.R {
-        background-color: rgb(194, 28, 28);
-        box-shadow: 0px 0px 5px black;
-    }
-    div.B {
-        background-color: rgb(69, 28, 194);
-        box-shadow: 0px 0px 5px black;
-    }
-    div.K {
-        width: 16px;
-        height: 15px;
-        cursor: pointer;
-    }
-    div.K:hover {
-        background-color: rgb(247, 247, 247);
-        box-shadow: 0px 0px 3px black;
-    }
-    button {
-        cursor: pointer;
-    }
+<style scoped>
+#base {
+    text-align: center;
+}
+table {
+    border-collapse: inherit;
+    display: table;
+}
+td {
+    font-size: 1px;
+    text-align: center;
+}
+td.d1 {
+    box-shadow: 0px 0px 3px black;
+    border-color: rgb(150, 133, 111);
+    border-radius: 18px;
+    border: solid 2px black;
+    width: 20px;
+    height: 20px;
+}
+td.d2, td.d3{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 9px;
+}
+div.O {
+    margin: 0px auto;
+    border-radius: 20px;
+    width: 16px;
+    height: 15px;
+}
+div.Empty {
+    width: 20px;
+    height: 20px;
+}
+div.R {
+    background-color: rgb(194, 28, 28);
+    box-shadow: 0px 0px 5px black;
+}
+div.B {
+    background-color: rgb(69, 28, 194);
+    box-shadow: 0px 0px 5px black;
+}
+div.K {
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+}
+div.K:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 3px black;
+}
+button {
+    cursor: pointer;
+}
 </style>

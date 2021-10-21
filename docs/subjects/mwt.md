@@ -1,7 +1,3 @@
----
-prev: /subjects/infalk.html
-next: /subjects/otir.html
----
 # Informatikai alapismeretek és modern webtechnológiák
 
 [**# Pédaprogramok #**](/examples/webexamples/)

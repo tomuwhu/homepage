@@ -4,6 +4,25 @@
 
 <Nevjegy />
 
+### Szakmai tagságok
+
+- [CENTRAL-EUROPEAN JOURNAL OF NEW TECHNOLOGIES IN<br>RESEARCH, EDUCATION AND PRACTICE - International Editorial Board](http://ojs.elte.hu/cejntrep/about/editorialTeam)
+- [ACM Europe Council - Hungarian ACM Chapter](https://europe.acm.org/chapters)
+- [Magyar Operációkutatási Társaság](http://www.mot.org.hu/tarsasag/tagsag)
+- [MTA Köztestület](https://mta.hu/koztestuleti_tagok?PersonId=10048135)
+  - Informatika- és Számítástudományi Bizottság
+  - Szegedi Területi Bizottság
+  - Informatikai Munkabizottság (szavazati jogú tag)
+- SZTE TTIK Tanulmányi bizottság (2020 - tól jelenleg) 
+- SZTE TTIK Oktatási bizottság (tag 2014-2017)
+- SZTE TTIK Tanárképzési bizottság (tag 2011-2014)
+- [SZTE TTIK Informatikai Intézet - Oktatási bizottság](https://www.inf.u-szeged.hu/intezet/bizottsagok/oktatasi-bizottsag)
+  - 2011 - 2014: tag
+  - 2014 - 2017: elnök
+  - 2019 - jelenleg: tag
+- [SZTE TTIK Informatikai Intézet - Hardver-szoftver Bizottság](https://www.inf.u-szeged.hu/intezet/bizottsagok/hardver-szoftver-bizottsag)
+  - 2011 - 2019: tag
+
 ### Szakmai tapasztalat
 
 - [<b>Szegedi Tudományegyetem - Informatikai Intézet</b>](http://www.inf.u-szeged.hu/)
@@ -11,13 +30,13 @@
   - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
   - tanársegéd (2011.01.01. - 2014.12.31.)
   - óraadó (2008.09.01. - 2010.12.31.)
-- [<b>Radnóti Miklós Kísérleti Gimnázium</b>](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage)
-  - <b>óraadó (2004.-2005., 2019.-től jelenleg)</b>
-  - tanár (2001.-2004.)
 - Egyéni vállalkozó (2008.04.17-től jelenleg)
   - informatika oktatás: szoftverfejlesztő képzések (School of Business, SzámPont Kft., ...)
   - táncoktatás: társastánc, sporttánc (Papiron SC, Kincso Alapítvány, KrupArt Kft., ... )
   - egyedi szoftverfejlesztés ([Szegedi Zsidó Archívum](https://szegedjewisharchive.org/), Iskolai adminisztrációs szoftverek, ...)
+- [Radnóti Miklós Kísérleti Gimnázium](http://www.radnoti-szeged.sulinet.hu/index.php?cmd=openpage)
+  - óraadó (2004.-2005., 2019.-2020.)
+  - tanár (2001.-2004.)
 - SNW Systems Kft.
   - ügyvezető (2008. - 2019.)
   - szoftverfejlesztés irányítása
@@ -28,6 +47,9 @@
   - Am Wolfsmantel 33, 91058 Erlangen - Németország
   - tudományos munkatárs (2009.)
   - online klaszterezés
+- [Nemzeti Szakképzési és Felnőttképzési Hivatal](https://www.nive.hu/)
+  - Szakiskolai Fejlesztési Program
+  - Országos Szakiskolai Kompetenciamérés (szoftverfejlesztés irányítása)
 - [Szegedi Szakképzési Centrum](http://szakkepzesszeged.hu/)
   - Móravárosi Szakgimnáziuma és Szakközépiskolája (2001.- 2010.)
   - Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995. - 2000.)
@@ -36,12 +58,12 @@
 
 ### Díjak, ösztöndíjak
 
-- [Új Nemzeti Kiválóság Program ösztöndíj (2019.09.-től jelenleg)](http://www.unkp.gov.hu/unkp-rol)
 - Emberi Erőforrás Fejlesztési Operatív Program (2011-től jelenleg)
+- [Új Nemzeti Kiválóság Program ösztöndíj (2019-2020)](http://www.unkp.gov.hu/unkp-rol)
 - Makovecz ösztöndíj (2017.)
 - Az SZTE TTIK Aranykréta-díja (2017/2018. tanév)
 - Nemzeti Tehetségprogram Pályázatok (2015., 2016., 2017.)
-- Earsmus ösztöndíj (2009.)
+- Erasmus ösztöndíj (2009.)
 
 ### Végzettségek
 

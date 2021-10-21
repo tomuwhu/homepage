@@ -17,7 +17,7 @@
              :id="windowWidth>600
                     ?'so'
                     :(windowWidth>300?'ko':'mo')">
-                <div v-if="elem!='! ! ! ! !'"
+                <div class="co" v-if="elem!='! ! ! ! !'"
                      :id="i" @click="rak(elem,i)"
                      :key=i v-for="(elem,i) in mo.split(',')"
                      >{{ elem }}</div>
@@ -27,7 +27,7 @@
             <table>
                 <td v-for="oszlop in t"
                     :style="`height: ${n*30+10}px;`">
-                    <div v-for="korong in oszlop"
+                    <div class="intd" v-for="korong in oszlop"
                     >{{korong}}</div>
                 </td>
             </table>
@@ -83,69 +83,69 @@ export default {
 }
 </script>
 
-<style lang=scss scoped>
-    div.main {
-        text-align: center;
-        div.i {
-            text-align: center;
-        }
-        margin: 50px;
-        select {
-            width: 50px;
-            font-size: 16px;
-            margin: 3px;
-            border-radius: 9px;
-            border: none;
-            box-shadow: 0px 0px 3px black;
-        }
-        div.co {
-            text-align: center;
-            display: grid;
-            grid-column-gap: 10px;
-            grid-row-gap: 10px;
-            div {
-                white-space: nowrap;
-                background-color: rgb(182, 191, 199);
-                padding: 6px;
-                margin: 4px;
-                cursor:pointer;
-                user-select: none;
-                box-shadow: 1px 1px 3px black;
-                border-radius: 5px;
-            }
-        }
-        div#so {
-            grid-template-columns: repeat(7,auto);
-        }
-        div#ko {
-            grid-template-columns: repeat(3,auto);
-        }
-        div#mo {
-            grid-template-columns: repeat(2,auto);
-        }
-        table {
-            text-align: center;
-            border-collapse: separate;
-            margin: 0 auto;
-            display: table;
-            border-spacing: 10px;
-        }
-        td {
-            width: 50px;
-            text-align:center ;
-            vertical-align: top;
-            box-shadow: 1px 1px 3px black;
-            border-radius: 5px;
-            background-color: rgb(164, 208, 207);
-            div {
-                box-shadow: 1px 1px 3px black;
-                border-radius: 5px;
-                padding :4px;
-                margin: 4px;
-                background-color: rgba(111, 220, 218, 90);
-                color: rgb(77, 19, 23);
-                text-shadow: 1px 1px 2px black;
-            }
-        }
-    }
+<style scoped>
+div.main {
+    text-align: center;
+    margin: 50px;
+}
+div.i {
+    text-align: center;
+}
+select {
+    width: 50px;
+    font-size: 16px;
+    margin: 3px;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
+div.co {
+    text-align: center;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+div.co {
+    white-space: nowrap;
+    background-color: rgb(182, 191, 199);
+    padding: 6px;
+    margin: 4px;
+    cursor:pointer;
+    user-select: none;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+}
+div#so {
+    grid-template-columns: repeat(7,auto);
+}
+div#ko {
+    grid-template-columns: repeat(3,auto);
+}
+div#mo {
+    grid-template-columns: repeat(2,auto);
+}
+table {
+    text-align: center;
+    border-collapse: separate;
+    margin: 0 auto;
+    display: table;
+    border-spacing: 10px;
+}
+td {
+    width: 50px;
+    text-align:center ;
+    vertical-align: top;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    background-color: rgb(164, 208, 207);
+}
+div.intd {
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    padding :4px;
+    margin: 4px;
+    background-color: rgba(111, 220, 218, 90);
+    color: rgb(77, 19, 23);
+    text-shadow: 1px 1px 2px black;
+}
 </style>

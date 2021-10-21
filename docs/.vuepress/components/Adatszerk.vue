@@ -272,8 +272,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-div#conta {
+<style scoped>
     input {
         font-size: 20px;
         padding: 5px;
@@ -291,19 +290,18 @@ div#conta {
         border-collapse: separate;
         border-spacing: 10px;
         border:solid 1px #123456;
-        td {
+    }    
+    td {
             background-color: rgb(190, 237, 242);
             border: solid 1px black;
             border-radius: 4px;
             font-size: 18px;
             padding: 5px;
-        }
-    }    
+    }
     div#mynetwork {
         height:500px;
         border: solid 1px black;
         border-radius:10px;
         box-shadow: 0 0 4px black;
     }
-}
 </style>

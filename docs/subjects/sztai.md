@@ -1,15 +1,12 @@
----
-prev: /subjects/szmt1.html
-next: false
----
-## 1. Informatikai alapismeretek
+## 1. Számítástechnikai alapismeretek
 
-### 1.1 Bevezetés az informatikába
+### 1.1 Bevezetés az számítástechnikába
 
-- Alapfogalmak (jel, adat, információ)
+- Informatikai alapfogalmak (jel, adat, információ)
 - Informatikai eszközök működésük és jellemzőik
 - Az informatika története
 - Az informatika területei
+- Számítási problémák és feladatok
 
 ### 1.2. Operációs rendszerek
 

@@ -82,58 +82,58 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-div#cont {
-    div#app {
-        font-size: 20px;
-        input {
-            background-color: rgb(196, 232, 238);
-            width: 327px;
-            font-size: 20px;
-            padding: 5px;
-            border-radius: 5px;
-        }
-    }
-    table {
-        padding: 0px;
-        margin: 0px;
-        border-collapse: separate;
-        border-spacing: 3px;
-        display: table;
-        td {
-            text-align: center;
-            font-size: 15px;
-            padding: 2px;
-            width:  17px;
-            height: 17px;
-            box-shadow: 1px 1px 2px gray;
-            border-radius: 6px;
-        }
-        td.z {
-            background-color: rgb(235, 88, 98);
-            font-weight: bold;
-            color:snow;
-        }
-        td.x {
-            background-color: rgb(217, 252, 233);
-            font-weight: bold;
-        }
-        td.szoveg {
-            user-select: none;
-            cursor: default;
-            text-align: center;
-            background-color: rgb(251, 255, 212);
-            font-size: 18px;
-            width: 320px;
-        }
-        td.eredm {
-            font-weight: bold;
-            font-size: 18px;
-            padding: 4px;
-            background-color: rgb(169, 241, 249);
-        }
-    }
+<style scoped>
+
+div#app {
+    font-size: 20px;
 }
+input {
+    background-color: rgb(196, 232, 238);
+    width: 327px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+table {
+    padding: 0px;
+    margin: 0px;
+    border-collapse: separate;
+    border-spacing: 3px;
+    display: table;
+}
+td {
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    width:  17px;
+    height: 17px;
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 6px;
+}
+td.z {
+    background-color: rgb(235, 88, 98);
+    font-weight: bold;
+    color:snow;
+}
+td.x {
+    background-color: rgb(217, 252, 233);
+    font-weight: bold;
+}
+td.szoveg {
+    user-select: none;
+    cursor: default;
+    text-align: center;
+    background-color: rgb(251, 255, 212);
+    font-size: 18px;
+    width: 320px;
+}
+td.eredm {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px;
+    background-color: rgb(169, 241, 249);
+}
+
 pre {
     margin: 2px ;
     padding: 0 ;

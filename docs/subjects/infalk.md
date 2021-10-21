@@ -1,7 +1,3 @@
----
-prev: /subjects/ifi.html
-next:  /subjects/mwt.html
----
 # Informatikai alkalmazások
 
 [[toc]]
@@ -33,7 +29,10 @@ next:  /subjects/mwt.html
 
 ### A közoktatásban használt programozási nyelvek és algoritmusok áttekintése
 
-Külön tantárgyakban kerül feldolgozásra (Algoritmizálás, Web alapismeretek...)
+A nyelvek alapjai (Python, JavaScript) külön tantárgyakban kerül feldolgozásra (Scriptnyelvek, Web alapismeretek...)
+
+- nodejs modulok alkalmazásának lehetőségei (visjs, chartjs)
+- python modulok alkalmazásának lehetőségei (numpy, matplotlib)
 
 ### Szövegszerkesztés (körlevél készítés, stílusok készítése, használata), kiadványszerkesztés
 
@@ -50,6 +49,13 @@ Külön tantárgyakban kerül feldolgozásra (Algoritmizálás, Web alapismerete
 - Stíluslapok
 - Kiadványszerkesztés folyamata: Tipográfiai tervezés, Szövegfeldolgozás, Képfeldolgozás, nyomdai előkészítés
 - Termék kigyártásának folyamatai (Szövegszerkesztés, Korrektúra)
+
+### Táblázatkezelés és adatbáziskezelés a közoktatásban. SQL és NoSQL.
+
+Az SQL nyelv alapjai és a MS ACCES használata külön tantárgyakban kerül feldolgozásra (Adatbáziskezelés, Adazbáziskezelés a közoktatásban)
+
+- SQL alkalmazása a közoktatásban (SQLite)
+- NoSQL és alkalmazása a közoktatásban (NeDB, TinyDB)
 
 ### Prezentáció készítés gyakorlati problémái, programozott animáció készítése prezentációkhoz
 

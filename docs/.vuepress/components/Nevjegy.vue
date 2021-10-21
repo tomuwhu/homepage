@@ -50,18 +50,14 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-    table {
-        tr.row {
-            td {
-                padding: 3px;
-                padding-right: 15px;
-                border: none;
-                vertical-align: middle;
-                img.ico {
-                    width:25px;
-                }
-            }
-        }
-    }
+<style scoped>
+td {
+    padding: 3px;
+    padding-right: 15px;
+    border: none;
+    vertical-align: middle;
+}
+img.ico {
+    width:25px;
+}
 </style>

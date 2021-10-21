@@ -1,7 +1,3 @@
----
-prev: false
-next: /subjects/eli1.html
----
 # Algoritmizálás
 
 (Informatikatanár szak)
@@ -49,12 +45,12 @@ next: /subjects/eli1.html
 - Mintaillesztés: automatával, Knuth-Morris-Pratt algoritmus.
 - Hátizsák feladat, tükörszó probléma.
 - Eseménytér fogalma, dinamikus programozás, mohó stratégia.
-- Optimális pénzváltás, hátizsák probléma, türedékes hátizsák probléma
+- Optimális pénzváltás, hátizsák probléma, töredékes hátizsák probléma
 - Csoportkép optimális időpontjainak meghatározása feladat.
 - Hemming-távolság, Damerau–Levenshtein-távolság, Wagner–Fischer algoritmus.
 - Számelméleti algoritmusok, nyilvános kulcsú tikosítás, RSA algoritmus.
 - Gráf absztrakt adattípus, gráf tárolási módok, számított gráf fogalma és példák.
-- Gráf-algoritmusok (gráf bejárás, Floyd-Warshall, PageRank algoritmus).
+- Gráf-algoritmusok (gráf bejárások és keresések, Floyd-Warshall, PageRank algoritmus).
 - Dijkstra- és A* algoritmus.
 - Speciális gráfok, páros gráfok és párosítási problémák. Magyar módszer.
 - Kruskal-algoritmus, halmazerdő adatszerkezet. Prím-algoritmus.

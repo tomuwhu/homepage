@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 input {
     font-size: 20px;
 }

@@ -1,7 +1,3 @@
----
-prev: /subjects/eli1.html
-next:  /subjects/infalk.html
----
 # Elemi Informatika 2
 
 (Informatikatanár szak)

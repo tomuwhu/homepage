@@ -52,43 +52,43 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 #app {
     font-family: 'Roboto Slab', serif;
     user-select: none;
     text-align: center;
     color: #095d6c;
-    h2 {
+}
+h2 {
         text-shadow: 0px 0px 2px #19334d;
     }
-    div#content {
+div#content {
+    text-align: center;
+}
+table {
+    border-collapse: inherit;
+    display: table;
+    margin:0px auto;
+    border-spacing: 4px;
+}
+td {
         text-align: center;
-        table {
-            border-collapse: inherit;
-            display: table;
-            margin:0px auto;
-            border-spacing: 4px;
-            td {
-                text-align: center;
-                width: 23px;
-                height: 23px;
-                background-color: #e6f3ef;
-                border-radius: 4px;
-                box-shadow: 1px 1px 3px rgb(99, 97, 97);
-                cursor: pointer;
-                border: solid 1px rgb(29, 43, 75);
-                color:snow;
-                padding:3px;
-            }
-            td.O {
-                background-color: #437264;
-            }
-            td.X {
-                background-color: #af5489;
-            }
-        }
+        width: 23px;
+        height: 23px;
+        background-color: #e6f3ef;
+        border-radius: 4px;
+        box-shadow: 1px 1px 3px rgb(99, 97, 97);
+        cursor: pointer;
+        border: solid 1px rgb(29, 43, 75);
+        color:snow;
+        padding:3px;
     }
+td.O {
+    background-color: #437264;
+}
+td.X {
+    background-color: #af5489;
 }
 div.ujj {
     margin:0px auto;
