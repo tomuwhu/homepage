@@ -31,7 +31,7 @@
     - Intézetvezető helyettes - oktatási ügyek (2014.-2017.)
     - tanársegéd (2011.01.01. - 2014.12.31.)
     - óraadó (2008.09.01. - 2010.12.31.)
-  - Gyakorló Gimnázium
+  - [Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)
     - óraadó (2021.-)
 - Egyéni vállalkozó (2008.-2020.)
   - informatika oktatás: szoftverfejlesztő képzések (School of Business, SzámPont Kft., ...)
