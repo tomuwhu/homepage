@@ -84,8 +84,6 @@
 - [SZSZC Gábor Dénes Szakgimnáziuma és Szakközépiskolája](http://www.gdszeged.hu/)
   - Vezetékes Távközléstechnikai Műszerész (1991.)
 
-[Europass](http://www.inf.u-szeged.hu/~tnemeth/cv.pdf)
-
 <style>
 b {
     color: #116342;
