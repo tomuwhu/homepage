@@ -21,7 +21,7 @@
     "markdown-it": "^8.4.1",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-katex": "^2.0.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "npm": "^6.13.7",
     "sass-loader": "^7.3.1",
     "vis-network": "^7.3.5",
